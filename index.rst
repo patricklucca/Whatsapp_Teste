@@ -27,11 +27,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper
    In pulvinar cursus orci, eu mollis quam placerat quis. Vivamus viverra faucibus lacus, iaculis bibendum est venenatis faucibus.     
    Nulla feugiat auctor condimentum.
 
-
-
-Indice
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
