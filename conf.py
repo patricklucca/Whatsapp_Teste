@@ -55,7 +55,7 @@ source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 master_doc = 'index'
 
 # General information about the project.
-project = u'Ocean Documentation'
+project = u'Whats Core'
 copyright = u'D-Wave Systems Inc'
 author = u'D-Wave Systems Inc'
 
