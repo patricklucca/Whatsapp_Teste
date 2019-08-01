@@ -7,6 +7,7 @@ Whatsapp Core
 ========
 .. toctree::
    :maxdepth: 2
+   :hide:
    :caption: Whatsapp Core
    
    
