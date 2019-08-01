@@ -43,7 +43,7 @@ extensions = [
 
 autosummary_generate = True
 
-# templates_path = ['_templates']
+templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -80,7 +80,7 @@ add_module_names = False
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+# exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -94,8 +94,8 @@ todo_include_todos = True
 # a list of builtin themes.
 #
 import sphinx_rtd_theme
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+# html_theme = 'sphinx_rtd_theme'
+# html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -118,11 +118,11 @@ html_static_path = ['_static']
 #         '_static/theme_overrides.css',  # override wide tables in RTD theme
 #         ],
 #      }
-def setup(app):
+#def setup(app):
    #app.add_javascript("custom.js")
-   app.add_stylesheet('theme_overrides.css')
-   app.add_stylesheet('cookie_notice.css')
-   app.add_javascript('cookie_notice.js')
+#   app.add_stylesheet('theme_overrides.css')
+#   app.add_stylesheet('cookie_notice.css')
+#   app.add_javascript('cookie_notice.js')
 
 
 # -- Options for HTMLHelp output ------------------------------------------
