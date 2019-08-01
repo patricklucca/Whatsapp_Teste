@@ -5,6 +5,14 @@
 
 Whatsapp Core
 ========
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Whatsapp Core
+
+   TesteZap
+   glossary
+
 .. image:: WhatsApp-Messenger.png
     :width: 100px
     :alt: Solidity logo
