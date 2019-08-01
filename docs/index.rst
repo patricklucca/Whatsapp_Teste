@@ -9,7 +9,8 @@ Whatsapp Core
    :maxdepth: 2
    :hidden:
    :caption: Whatsapp Core
-
+   
+   index
    TesteZap
    glossary
 
