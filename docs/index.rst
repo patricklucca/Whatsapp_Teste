@@ -10,7 +10,6 @@ Whatsapp Core
    :hidden:
    :caption: Whatsapp Core
    
-   index
    TesteZap
    glossary
 
