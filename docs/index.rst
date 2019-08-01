@@ -21,10 +21,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper
  ''Essas frases de cima são do meu latim, gastei dmsss''
  ``Essas frases de cima são do meu latim, gastei dmsss``
 
+Teste teste teste
+
    .. code-block:: python
 
       from rubix.aws.cloudwatch import plot_metric
-
+      Testando aaaaaaaaaaa
       # Load balancer P90 latency with deployment time markers
       plot_metric(namespace='AWS/ELB',
             metric_name='Latency',
