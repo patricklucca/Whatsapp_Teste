@@ -10,6 +10,9 @@ Whatsapp Core
     :alt: Solidity logo
     :align: center
 
+.. code-block:: sql
+      :linenos:
+      SELECT * FROM mytable
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ullamcorper, nunc non porta blandit, nibh velit efficitur metus, ac dapibus augue tortor in libero. Pellentesque gravida et elit a pretium. Quisque vitae efficitur urna, et luctus dolor. Aenean nec purus a tellus posuere mollis et nec metus. Quisque ac ornare nisl. In hac habitasse platea dictumst. Morbi porta vel arcu vitae iaculis. Maecenas feugiat enim lobortis massa ultricies, vel ullamcorper est commodo. Duis turpis tortor, tincidunt quis malesuada eget, vehicula non mi.
 
