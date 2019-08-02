@@ -3,6 +3,10 @@
     white-space: nowrap;
 }
 
+a.fa-github {
+    display:none;
+}
+
 .acronym {
     text-transform: uppercase;
     letter-spacing: 0.2em;
