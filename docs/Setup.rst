@@ -2,21 +2,33 @@
 Setup
 #################
 
+O objetivo deste documento é apontar os requisitos necessários e o passo-a-passo para a aplicação da funcionalidade e sua configuração em uma nova organização.
+
 REGISTRO DE DOMÍNIO PARA A ORGANIZACAO
 -----------------------
+
+Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
 
 .. image:: instalacao4.png
     :width: 200px
     :alt: Solidity logo
     :align: center
 
+Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
+
+.. image:: instalacao6.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+
+Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote
 
 
 INSTALAÇÃO DO PACOTE GERENCIADO
 -----------------------
 	
-O objetivo deste documento é apontar os requisitos necessários e o passo-a-passo para a aplicação da funcionalidade e sua configuração em uma nova organização.
-Primariamente o usuário deve possuir uma organização no SalesForce. O download ddo pacote para a sua organização deve ser realizado através do link abaixo
+
+O download do pacote para a sua organização deve ser realizado através do link abaixo
          
          https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007Pb3G
          
