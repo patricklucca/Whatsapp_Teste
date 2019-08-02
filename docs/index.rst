@@ -11,7 +11,7 @@ Whatsapp Core
    :caption: Whatsapp Core
    
    
-   TesteZap
+   Setup
    glossary
 
 .. image:: WhatsApp-Messenger.png
