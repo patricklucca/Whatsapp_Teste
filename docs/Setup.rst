@@ -62,7 +62,7 @@ Para alterar o tempo de atualização:
 
 Entre na Configuração
 
-.. image:: Captura de Tela 2019-08-02 às 13.57.33.png
+.. image:: instalacao7.png
     :width: 200px
     :alt: Solidity logo
     :align: center
@@ -72,7 +72,7 @@ Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização
 Clique em Editar do lado esquerdo do Registro único.
 Aqui temos dois tempos:
 
-.. image:: Captura de Tela 2019-08-02 às 10.58.28.png
+.. image:: instalacao8.png
     :width: 200px
     :alt: Solidity logo
     :align: center
