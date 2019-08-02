@@ -53,3 +53,32 @@ Depois da confirmação das opções anteriores o download começará normalment
     :alt: Solidity logo
     :align: center
     
+CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
+-----------------------
+	
+A periodicidade de atualização das mensagens é de 1 segundo por padrão, porém é possível modificar.
+
+Para alterar o tempo de atualização:
+
+Entre na Configuração
+
+.. image:: Captura de Tela 2019-08-02 às 13.57.33.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+
+Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
+Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização.
+Clique em Editar do lado esquerdo do Registro único.
+Aqui temos dois tempos:
+
+.. image:: Captura de Tela 2019-08-02 às 10.58.28.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+
+Inbox do Whatsapp: é o tempo em milissegundos da atualização do Inbox do Whatsapp do APP Wahtsapp.
+Messenger do Whatsapp: é o tempo em milissegundos da atualização do componente Messenger para Lead/Contato (Ainda em implementação)
+
+
+
