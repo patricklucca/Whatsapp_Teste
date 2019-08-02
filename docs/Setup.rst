@@ -74,7 +74,7 @@ Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
 Clique em Editar do lado esquerdo do Instância do Servidor Whatsapp.
 Adicionar a url fornecida no campo Attribute 1 como no exemplo a seguir:
 
-.. image:: instalacao9.png
+.. image:: instalacao10.png
     :width: 200px
     :alt: Solidity logo
     :align: center
@@ -88,7 +88,7 @@ Escreva site na busca rápida e clique em Configurações do site remoto.
 Clique em Editar do lado esquerdo do WhatsappWeb.
 Adicionar a url fornecida no campo URL do site remoto como no exemplo a seguir:
 
-.. image:: instalacao10.png
+.. image:: instalacao9.png
     :width: 200px
     :alt: Solidity logo
     :align: center
