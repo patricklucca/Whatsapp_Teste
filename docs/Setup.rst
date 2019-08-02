@@ -56,7 +56,7 @@ Depois da confirmação das opções anteriores o download começará normalment
 CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
 -----------------------
 
-Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato através de “XXXXXXXXXXXXXXXXXXXXX”.
+Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato conosco.
 
 Com a url que a INPULSO disponibilizar terá que inserir no Parâmetro Global e no Site Remoto.
 
