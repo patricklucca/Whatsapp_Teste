@@ -12,7 +12,7 @@ Whatsapp Core
    
    
    Setup
-   glossary
+   Inbox_do_Whatsapp
 
 .. image:: WhatsApp-Messenger.png
     :width: 100px
