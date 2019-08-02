@@ -52,6 +52,50 @@ Depois da confirmação das opções anteriores o download começará normalment
     :width: 200px
     :alt: Solidity logo
     :align: center
+        
+CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
+-----------------------
+
+Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato através de “XXXXXXXXXXXXXXXXXXXXX”.
+
+Com a url que a INPULSO disponibilizar terá que inserir no Parâmetro Global e no Site Remoto.
+
+Parâmetro Global
+
+Entre na Configuração
+
+.. image:: instalacao7.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+    
+Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
+Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
+Clique em Editar do lado esquerdo do Instância do Servidor Whatsapp.
+Adicionar a url fornecida no campo Attribute 1 como no exemplo a seguir:
+
+.. image:: instalacao9.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+    
+Após inserir a url, clique em Salvar.
+
+Site Remoto
+
+Entre na Configuração
+Escreva site na busca rápida e clique em Configurações do site remoto.
+Clique em Editar do lado esquerdo do WhatsappWeb.
+Adicionar a url fornecida no campo URL do site remoto como no exemplo a seguir:
+
+.. image:: instalacao10.png
+    :width: 200px
+    :alt: Solidity logo
+    :align: center
+    
+Após inserir a url, clique em Salvar.
+
+
     
 CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
 -----------------------
