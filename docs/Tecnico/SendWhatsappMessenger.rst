@@ -24,6 +24,15 @@ O método manipula a variável singleQueue, criada dentro da classe, usando-o co
        singleQueue = new SendMessageQueue(pSetMensagemId);
        singleQueueId = System.enqueueJob(singleQueue);
             
+e limpando-o caso não seja null:
+
+.. code-block:: apex
+
+        else {
+        System.abortJob(singleQueueId);
+        singleQueue.add(pSetMensagemId);
+        singleQueueId = System.enqueueJob(singleQueue);
+        
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doEnviarMensagens(mapa_id_mensagem.keySet());``
