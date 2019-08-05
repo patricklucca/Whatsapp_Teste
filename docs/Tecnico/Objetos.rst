@@ -2,7 +2,7 @@ Contato do Whatsapp
 
 O objeto contato do whatsapp é criado para ser a referência de um número de whatsapp de um cliente.
 
-.. image:: Tabela_Objeto1.png
+.. image:: tabelaobjeto1.png
     :width: 400px
     :alt: Solidity logo
     :align: center
@@ -17,7 +17,7 @@ Conversa do Whatsapp
 
 O objeto conversa do whatsapp tem um registro para cada conversa de um contato do whatsapp com um parâmetro do whatsapp.
 
-.. image:: Tabela_Objeto3.png
+.. image:: tabelaobjeto2.png
     :width: 400px
     :alt: Solidity logo
     :align: center
@@ -43,7 +43,7 @@ Parâmetro Whatsapp
 
 O objeto parâmetro whatsapp é um registro para os clientes entrarem em contato via Whatsapp.
 
-.. image:: Tabela_Objeto3.png
+.. image:: tabelaobjeto3.png
     :width: 400px
     :alt: Solidity logo
     :align: center
