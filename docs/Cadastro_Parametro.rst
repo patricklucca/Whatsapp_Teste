@@ -3,10 +3,12 @@ Cadastro de novo parâmetro whatsapp
 #################
 
 Para registrar um novo, vá na aba do Parâmetro Whatsapp.
+
 .. image:: Cadastro_Parametro.png
     :width: 100px
     :alt: Solidity logo
     :align: center
+    
 Definições dos campos:
 Descrição: a descrição seria o nome do Parâmetro Whatsapp.
 Número: número registrado no whatsapp a máscara seria DDD+Número. Ex.: 13999887766.
