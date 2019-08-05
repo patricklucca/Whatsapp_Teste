@@ -14,7 +14,8 @@ A chamada pode ser realizada da seginte forma:
    
 doEnviarMensagem
 -----------------------
-Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c
+Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos`_
+.. _Objetos: https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
 Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe WACoreExecutionAfter e também é um método estático sem retorno.
 A chamada pode ser realizada da seginte forma:
 
