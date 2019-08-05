@@ -5,7 +5,7 @@ Cadastro de novo parâmetro whatsapp
 Para registrar um novo, vá na aba do Parâmetro Whatsapp.
 
 .. image:: Cadastro_Parametro.png
-    :width: 100px
+    :width: 200px
     :alt: Solidity logo
     :align: center
     
@@ -19,5 +19,5 @@ Senha Salesforce: sua senha mais a chave de segurança.
 Clique em Salvar.
 
 
-  Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
-  Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização.
+    Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
+    Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização.
