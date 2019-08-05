@@ -15,12 +15,22 @@ A chamada pode ser realizada da seginte forma:
 doEnviarMensagem
 -----------------------
 Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos`_
-Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe WACoreExecutionAfter e também é um método estático sem retorno.
+Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe `WACoreExecutionAfter`_ e também é um método estático sem retorno.
+O método manipula a variável singleQueue, criada dentro da classe, usando-o com um comparativo:
+
+.. code-block:: apex
+
+       if (singleQueue == null) {
+       singleQueue = new SendMessageQueue(pSetMensagemId);
+       singleQueueId = System.enqueueJob(singleQueue);
+            
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doEnviarMensagens(mapa_id_mensagem.keySet());``
    
 .. _Objetos : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
+.. _WACoreExecutionAfter : 
+
 doEnviarContentMedia
 -----------------------
 NÃO ESTÁ SENDO UTILIZADO// As mensagens com imagens seriam montadas através do  método doEnviarContentMedia que é similar ao doEnviarMensagem, recebendo como parâmetro também cinco String Origem, Destino, Chave, ContentMedia e ContentSize
@@ -51,5 +61,4 @@ A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doAutenticarNumero('', '', '','');``
      
-* **Objetos**:
-  :doc:`Tecnico/Objetos` |
+
