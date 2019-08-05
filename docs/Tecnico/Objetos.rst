@@ -2,7 +2,7 @@ Contato do Whatsapp
 
 O objeto contato do whatsapp é criado para ser a referência de um número de whatsapp de um cliente.
 
-.. image:: Inbox1.png
+.. image:: tabelaobjeto3.png
     :width: 500px
     :alt: Solidity logo
     :align: center
