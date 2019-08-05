@@ -1,5 +1,5 @@
 #################
-SendWhatsappMessenger.rst
+SendWhatsappMessenger
 #################
 
 A classe SendWhatsappMessage é responsável pelo envio das mensagens da conversa, registro de número, atualização do mesmo e sua autentificação. 
@@ -14,8 +14,7 @@ A chamada pode ser realizada da seginte forma:
    
 doEnviarMensagem
 -----------------------
-Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos`_
-.. _Objetos: https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
+Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos Objetos
 Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe WACoreExecutionAfter e também é um método estático sem retorno.
 A chamada pode ser realizada da seginte forma:
 
@@ -51,3 +50,5 @@ A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doAutenticarNumero('', '', '','');``
      
+* **Objetos**:
+  :doc:`Tecnico/Objetos` |
