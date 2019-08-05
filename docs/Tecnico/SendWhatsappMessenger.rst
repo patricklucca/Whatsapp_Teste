@@ -53,7 +53,7 @@ doRegistrarNumero
 NÃO ESTÁ SENDO UTILIZADO// Registra o número que envia mensagens através do método doRegistrarNumero que é similar ao doEnviarMensagem na definição do content, recebendo como parâmetro quatro Strings DDI, número, operadora e método de envio.
 A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doAutenticarNumero('', '', '','');``
+    ``SendWhatsappMessage.doRegistrarNumero('', '', '','');``
       
    
 doAutenticarNumero
@@ -61,13 +61,19 @@ doAutenticarNumero
 NÃO ESTÁ SENDO UTILIZADO// Registra o número que envia mensagens através do método doAutenticarNumero que é similar ao doEnviarMensagem na definição do content, recebendo como parâmetro quatro Strings DDI, número, operadora e método de envio.
 A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doAutenticarNumero('', '', '','');``
-        
-doRegistrarNumero
+    ``SendWhatsappMessage.doAutenticarNumero('', '', '');``
+             
+doRegistrarNovoNumero
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// Registra o número que envia mensagens através do método doRegistrarNumero que é similar ao doEnviarMensagem na definição do content, recebendo como parâmetro quatro Strings DDI, número, operadora e método de envio.
+Classe responsável pela chamada da classe subsequente, a ``registerNewNumber``, pois a doRegistrarNovoNumero é publica, enquanto a ewgisternewnumber é privada. Esta classe recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
 A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doAutenticarNumero('', '', '','');``
+    ``SendWhatsappMessage.doRegistrarNovoNumero('', '', '', '', '', '', true);``
+                  
+registerNewNumber
+-----------------------
+
+Esta classe recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
+Por ser um método privado não pode ser chamado externamente.
      
 
