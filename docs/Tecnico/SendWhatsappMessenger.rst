@@ -14,7 +14,7 @@ A chamada pode ser realizada da seginte forma:
    
 doEnviarMensagem
 -----------------------
-Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos `_
+Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos`_
 Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe WACoreExecutionAfter e também é um método estático sem retorno.
 A chamada pode ser realizada da seginte forma:
 
