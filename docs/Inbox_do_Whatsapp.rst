@@ -26,7 +26,7 @@ Dentro da conversa é possível vinculá-la a um lead ou uma conta através do b
     
 Ao seleciona-lo um painel aparecerá na conversa, onde será possível selecionar se a conversa deve ser relacionada a um Lead ou a um Contato
 
-.. image:: Inbox2.png
+.. image:: Inbox3.png
     :width: 500px
     :alt: Solidity logo
     :align: center
