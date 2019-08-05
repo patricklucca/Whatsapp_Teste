@@ -13,6 +13,7 @@ Whatsapp Core
    
    Setup
    Inbox_do_Whatsapp
+   Cadastro_Parametro
 
 .. image:: WhatsApp-Messenger.png
     :width: 100px
