@@ -14,13 +14,13 @@ A chamada pode ser realizada da seginte forma:
    
 doEnviarMensagem
 -----------------------
-Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Read the Docs`_
+Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos `_
 Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe WACoreExecutionAfter e também é um método estático sem retorno.
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doEnviarMensagens(mapa_id_mensagem.keySet());``
    
-.. _Read the docs: http://readthedocs.org/
+.. _Objetos : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
 doEnviarContentMedia
 -----------------------
 NÃO ESTÁ SENDO UTILIZADO// As mensagens com imagens seriam montadas através do  método doEnviarContentMedia que é similar ao doEnviarMensagem, recebendo como parâmetro também cinco String Origem, Destino, Chave, ContentMedia e ContentSize
