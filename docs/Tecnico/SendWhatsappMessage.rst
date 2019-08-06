@@ -1,5 +1,5 @@
 #################
-SendWhatsappMessenger
+SendWhatsappMessage
 #################
 
 A classe SendWhatsappMessage é responsável pelo envio das mensagens da conversa, registro de número, atualização do mesmo e sua autentificação. 
