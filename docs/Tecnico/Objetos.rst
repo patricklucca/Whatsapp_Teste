@@ -73,6 +73,13 @@ Página Visualforce:
 Mensagem do Whatsapp
 -----------------------
 O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de uma conversa, tanto do cliente para o parâmetro, quanto parâmetro para cliente.
+
+.. image:: tabelaobjeto4.png
+    :width: 500px
+    :alt: Solidity logo
+    :align: center
+    
+  
 Referências:
 
 Classe Apex:
