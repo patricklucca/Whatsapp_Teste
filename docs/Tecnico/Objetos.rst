@@ -68,9 +68,32 @@ Acionadores Apex:
 Página Visualforce:
     WAQrRequest
     WAQrView
+    
+
+Mensagem do Whatsapp
+-----------------------
+O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de uma conversa, tanto do cliente para o parâmetro, quanto parâmetro para cliente.
+Referências:
+
+Classe Apex:
+    MensagemWhatsappHandler
+    SendWhatsappMessage
+    WAActionHandler
+    WAActionInterface
+    WACoreExecutionAfter
+    WACoreExecutionBefore
+    WAInboxMessenger_ctl
+    WAMessenger_ctl
+Acionadores Apex:
+    `MensagemWhatsapp_aiu`_
+    `MensagemWhatsapp_biu`_
+
+
 
 .. _SendWhatsappMessage : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/SendWhatsappMessenger.html?highlight=SendWhatsappMessage
 .. _ParametroWhatsapp_aiu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#parametrowhatsapp-aiu
 .. _ConversaWhatsapp_biu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#conversawhatsapp-biu
 .. _ConversaWhatsapp_aiu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#conversawhatsapp-aiu
 .. _SendWhatsappMessage : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/SendWhatsappMessenger.html?highlight=SendWhatsappMessage
+.. _MensagemWhatsapp_aiu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#mensagemwhatsapp-aiu
+.. _MensagemWhatsapp_biu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#mensagemwhatsapp-biu
