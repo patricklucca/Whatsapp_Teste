@@ -11,12 +11,13 @@ Nele apenas é chamado o método executeTrigger da classe ParametroWhatsappHandl
 
 Referências:
 
-Classe Apex
-ParametroWhatsappHandler
-Objeto Personalizado
-Parâmetro Whatsapp
-ConversaWhatsapp_aiu
+Classe Apex:
+  ParametroWhatsappHandler
+Objeto Personalizado:
+  Parâmetro Whatsapp
 
+ConversaWhatsapp_aiu
+-----------------------
 O ConversaWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Conversa do Whatsapp.
 
 Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandler.
