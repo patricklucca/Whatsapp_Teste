@@ -14,7 +14,7 @@ Referências:
 Classe Apex:
   ParametroWhatsappHandler
 Objeto Personalizado:
-  Parâmetro Whatsapp
+  `ParametroWhatsapp`_
 
 ConversaWhatsapp_aiu
 -----------------------
@@ -41,7 +41,7 @@ Referências:
 Classe Apex:
   ConversaWhatsappHandler
 Objeto Personalizado:
-  Conversa do Whatsapp
+  `ConversaWhatsapp`_
 
 
 
@@ -54,10 +54,11 @@ Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandle
 
 Referências:
 
-  Classe Apex
-MensagemWhatsappHandler
-  Objeto Personalizado
-Mensagem do Whatsapp
+Classe Apex:
+  MensagemWhatsappHandler
+Objeto Personalizado:
+  Mensagem do Whatsapp
+
 
 MensagemWhatsapp_biu
 -----------------------
@@ -72,3 +73,10 @@ Classe Apex:
   MensagemWhatsappHandler
 Objeto Personalizado:
   Mensagem do Whatsapp
+
+
+
+.. _ContatoWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#contato-do-whatsapp
+.. _ConversaWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#conversa-do-whatsapp
+.. _ParametroWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#parametro-whatsapp
+.. _MensagemWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#mensagem-do-whatsapp
