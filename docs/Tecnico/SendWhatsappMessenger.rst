@@ -65,15 +65,61 @@ A chamada pode ser realizada da seginte forma:
              
 doRegistrarNovoNumero
 -----------------------
-Classe responsável pela chamada da classe subsequente, a ``registerNewNumber``, pois a doRegistrarNovoNumero é publica, enquanto a ewgisternewnumber é privada. Esta classe recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
+Método responsável pela chamada do método subsequente, a ``registerNewNumber``, pois a doRegistrarNovoNumero é publica, enquanto a ewgisternewnumber é privada. Este método recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doRegistrarNovoNumero('', '', '', '', '', '', true);``
                   
 registerNewNumber
 -----------------------
-
-Esta classe recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
+Responsável pela criação de uma String nomeada content que possui as informações de número, novo número e todas as strings que ele recebe. Esta método recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
 Por ser um método privado não pode ser chamado externamente.
+Esta método é indiretamente chamado pela método syncParametro da classe `ParametroWhatsappHandler`_ através de uma verificação:
+    ``if (afterInsert || (afterUpdate && hasChangedServerParam(mapOldRecord.get(param.Id), param)))``
+Atualizando o número do ParametroWhatsapp__c
+
+.. _ParametroWhatsappHandler : 
      
+doVerificaNovoNumero
+-----------------------
+NÃO ESTÁ SENDO UTILIZADO// Trata-se de um método void que não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
+A chamada pode ser realizada da seginte forma:
+
+    ``SendWhatsappMessage.doRegistrarNovoNumero();``
+
+doRegitrarNovoGrupo
+-----------------------
+NÃO ESTÁ SENDO UTILIZADO// Similar ao método doVerificarNovoNumero, trata-se de um método void que não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
+A chamada pode ser realizada da seginte forma:
+
+    ``SendWhatsappMessage.doRegistrarNovoNumero();``
+             
+getQr
+-----------------------
+Responsável pela criação de uma String nomeada content que possui as informações de número e clienteID. Esta método recebe apenas uma String com o número do cliente
+Esta método é chamado pela método loadQr da classe `WAQrView`_ para montar a requisição ao servidor através da chamada:
+    ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
+
+
+
+.. _WAQrView : 
+             
+requestQr
+-----------------------
+Responsável pela criação de uma String nomeada content que possui as informações de número e clienteID, montando a requisição ao servidor. Esta método recebe apenas uma String com o número do cliente
+Esta método é chamado por um método homonimo (requestQr) da classe `WAQrRequest`_ para montar a requisição ao servidor através da chamada:
+    ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
+
+
+
+.. _WAQrRequest : 
+             
+getMensagemWaJson
+-----------------------
+Responsável pela criação pela criação de um arquivo Json com a mensagem. Utilizado dentro da própria classe pelo método void execute recebendo como parâmetro 
+
+
+
+.. _WAQrRequest : 
+ 
 
