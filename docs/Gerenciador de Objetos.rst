@@ -22,7 +22,7 @@ Na lateral esquerda uma barra de buscas rápidas será aberta, consulte por Gere
 Ao abri-lo pode-se consultar todos os Objetos da Org, não só Personalizados como também os Objetos Padrões.
 Os Objetos Personalizados apresentam dados confirmando que são personalizados, como a presença de um "__c" no nome da API e os campos Implantado e Peronalizado marcados, como pode-se notar no exemplo abaixo.
 
-.. image:: layout3png
+.. image:: layout3.png
     :width: 500px
     :alt: Solidity logo
     :align: center
