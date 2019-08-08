@@ -4,18 +4,19 @@ SendWhatsappMessage
 
 A classe SendWhatsappMessage é responsável pelo envio das mensagens da conversa, registro de número, atualização do mesmo e sua autentificação. 
 
-doEnviarMensagem
+public static void doEnviarMensagem(String pOrigem, String pDestino, String pChave, String pMensagem, String pIdChat)
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// As mensagens são montadas através do método doEnviarMensagem, que recebem como parâmetro cinco String Origem, Destino, Chave, ContentMedia e ContentSize
-Trata-se de um método público que não tem retorno onde através dele é instituido o content, Timeout, Endpoint, Header,Method e Body, este metodo também recebe o StatusCode do servidor.
+NÃO ESTÁ EM USO// As mensagens são montadas através do método doEnviarMensagem
+
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doEnviarMensagem('origem', 'destino', 'contentmedia', 'contentsize');``
+    
+Retorna o body da request
    
-doEnviarMensagem
+public statis void doEnviarMensagens(Set<Id> pSetMensagem)
 -----------------------
-Responsável pelo enfileiramento das mensagem a serem madadas com origem Empresa > Cliente *ver campo Direcao__c nos `Objetos`_
-Recebe como parâmetro setIdToIntegrate que é estabelecido através do método doIntegrarMensagens da classe `WACoreExecutionAfter`_ e também é um método estático sem retorno.
+Responsável pelo enfileiramento das mensagem com origem Empresa > Cliente 
 O método manipula a variável singleQueue, criada dentro da classe, usando-o com um comparativo:
 
 .. code-block:: apex
@@ -40,63 +41,54 @@ A chamada pode ser realizada da seginte forma:
 .. _Objetos : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
 .. _WACoreExecutionAfter : 
 
-doEnviarContentMedia
+public static void doEnviarContentMedia(String pOrigem, String pDestino, String pChave, String pContentMedia, String pContentSize)
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// As mensagens com imagens seriam montadas através do  método doEnviarContentMedia que é similar ao doEnviarMensagem, recebendo como parâmetro também cinco String Origem, Destino, Chave, ContentMedia e ContentSize
-Diferencia pela utilização da chave na criação do content e definição do endpoint.
+NÃO ESTÁ EM USO// As mensagens com imagens são montadas através deste método
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doEnviarContentMedia('origem', 'destino', 'chave', 'contentmedia', 'contentsize');``
    
-doRegistrarNumero
+Retorna o body da request
+
+public static void doRegistrarNumero(String pDdi, String pNumero, String pOperadora, String pMetodoEnvio)
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// Registra o número que envia mensagens através do método doRegistrarNumero que é similar ao doEnviarMensagem na definição do content, recebendo como parâmetro quatro Strings DDI, número, operadora e método de envio.
+egistra o número que envia mensagens
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doRegistrarNumero('', '', '','');``
       
-   
-doAutenticarNumero
+
+public static void doAutenticarNumero(String pDdi, String pNumero, String pCodigo)
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// Registra o número que envia mensagens através do método doAutenticarNumero que é similar ao doEnviarMensagem na definição do content, recebendo como parâmetro quatro Strings DDI, número, operadora e método de envio.
+Autentifica o número que envia mensagens.
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doAutenticarNumero('', '', '');``
              
-doRegistrarNovoNumero
+public static void doRegistrarNovoNumero(String oldNumero, String numero, String operadora, String callbackLogin, String callbackPassword, String msgIncompatibilidade, Boolean isAtivo)
 -----------------------
-Método responsável pela chamada do método subsequente, a ``registerNewNumber``, pois a doRegistrarNovoNumero é publica, enquanto a ewgisternewnumber é privada. Este método recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
+Método responsável pela chamada do método ``registerNewNumber``
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doRegistrarNovoNumero('', '', '', '', '', '', true);``
                   
-registerNewNumber
------------------------
-Responsável pela criação de uma String nomeada content que possui as informações de número, novo número e todas as strings que ele recebe. Esta método recebe seis Strings e um Boolean, sendo eles respoectivamente as Strings oldNumero, numero, operadora, callbackLogin, callbackPassword, msgIncompatibilidade e o Boolean isAtivo
-Por ser um método privado não pode ser chamado externamente.
-Esta método é indiretamente chamado pela método syncParametro da classe `ParametroWhatsappHandler`_ através de uma verificação:
-    ``if (afterInsert || (afterUpdate && hasChangedServerParam(mapOldRecord.get(param.Id), param)))``
-Atualizando o número do ParametroWhatsapp__c
-
-.. _ParametroWhatsappHandler : 
      
-doVerificaNovoNumero
+public static void doVerificaNovoNumero()
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// Trata-se de um método void que não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
+NÃO ESTÁ EM USO// Não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doRegistrarNovoNumero();``
 
-doRegitrarNovoGrupo
+public static void doRegitrarNovoGrupo()
 -----------------------
-NÃO ESTÁ SENDO UTILIZADO// Similar ao método doVerificarNovoNumero, trata-se de um método void que não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
+NÃO ESTÁ EM USO// Registra uma nova conversa de grupo. Monta o content com informações constantes. 
 A chamada pode ser realizada da seginte forma:
 
     ``SendWhatsappMessage.doRegistrarNovoNumero();``
              
-getQr
+public static String getQr(String pNumero)
 -----------------------
-Responsável pela criação de uma String nomeada content que possui as informações de número e clienteID. Esta método recebe apenas uma String com o número do cliente
 Esta método é chamado pela método loadQr da classe `WAQrView`_ para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
@@ -104,22 +96,41 @@ Esta método é chamado pela método loadQr da classe `WAQrView`_ para montar a 
 
 .. _WAQrView : 
              
-requestQr
+public static String requestQr(String pNumero)
 -----------------------
-Responsável pela criação de uma String nomeada content que possui as informações de número e clienteID, montando a requisição ao servidor. Esta método recebe apenas uma String com o número do cliente
-Esta método é chamado por um método homonimo (requestQr) da classe `WAQrRequest`_ para montar a requisição ao servidor através da chamada:
+Esta método é chamado pelo método requestQr da classe `WAQrRequest`_ para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
 
 
 .. _WAQrRequest : 
              
-getMensagemWaJson
+             
+public class SendMessageQueue implements Queueable, Database.AllowsCallouts
 -----------------------
-Responsável pela criação pela criação de um arquivo Json com a mensagem. Utilizado dentro da própria classe pelo método void execute recebendo como parâmetro 
+Método responsável por implementar Queable e chamada de método subsequentes
+    
+public SendMessageQueue(Set<Id> pSetMensagemId) 
+-----------------------
+Preenche a variável pSetMensagemId
+    
+public void add(Set<Id> pSetMensagemId) 
+-----------------------
+Método responsável pela chamada de método subsequentes
+    
+public void execute(QueueableContext context)  
+-----------------------
+Envia as mensagens enfileiradas
+    
+public class RemoteMessageEntity
+-----------------------
+Define String id, String corpo, String origem, String destino e chama RemoteMessageEntity
+    
+public RemoteMessageEntity(MensagemWhatsapp__c pMensagemWa) 
+-----------------------
+Define valores para String id, String corpo, String origem, String destino.
 
+             
 
-
-.. _WAQrRequest : 
  
 
