@@ -11,8 +11,6 @@ Nele apenas é chamado o método executeTrigger da classe ParametroWhatsappHandl
 
 Referências:
 
-Classe Apex:
-  ParametroWhatsappHandler
 Objeto Personalizado:
   `ParametroWhatsapp`_
 
@@ -24,8 +22,6 @@ Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandle
 
 Referências:
 
-Classe Apex:
-  ConversaWhatsappHandler
 Objeto Personalizado:
   Conversa do Whatsapp
 
@@ -38,8 +34,6 @@ Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandle
 
 Referências:
 
-Classe Apex:
-  ConversaWhatsappHandler
 Objeto Personalizado:
   `ConversaWhatsapp`_
 
@@ -54,8 +48,6 @@ Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandle
 
 Referências:
 
-Classe Apex:
-  MensagemWhatsappHandler
 Objeto Personalizado:
   Mensagem do Whatsapp
 
@@ -69,8 +61,6 @@ Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandle
 
 Referências:
 
-Classe Apex:
-  MensagemWhatsappHandler
 Objeto Personalizado:
   Mensagem do Whatsapp
 
