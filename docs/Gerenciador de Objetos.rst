@@ -8,14 +8,14 @@ Explorando o Gerenciador de Objetos
 Para acessar o Gerenciador de Objetos deve-se abrir as configurações através do botão de Configurações
 
 .. image:: layout1.png
-    :width: 500px
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
 Na lateral esquerda uma barra de buscas rápidas será aberta, consulte por Gerenciador de Objetos.
 
 .. image:: layout2.png
-    :width: 500px
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
