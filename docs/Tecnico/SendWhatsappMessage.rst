@@ -2,53 +2,32 @@
 SendWhatsappMessage
 #################
 
-A classe SendWhatsappMessage é responsável pelo envio das mensagens da conversa, registro de número, atualização do mesmo e sua autentificação. 
-
-public static void doEnviarMensagem(String pOrigem, String pDestino, String pChave, String pMensagem, String pIdChat)
+doEnviarMensagem()
 -----------------------
 NÃO ESTÁ EM USO// As mensagens são montadas através do método doEnviarMensagem
 
-A chamada pode ser realizada da seginte forma:
-
-    ``SendWhatsappMessage.doEnviarMensagem('origem', 'destino', 'contentmedia', 'contentsize');``
-    
-Retorna o body da request
+Assinatura
+    public static void doEnviarMensagem(String pOrigem, String pDestino, String pChave, String pMensagem, String pIdChat)
+Valor retornado
+    Não tem retorno
    
-public statis void doEnviarMensagens(Set<Id> pSetMensagem)
+doEnviarMensagens()
 -----------------------
 Responsável pelo enfileiramento das mensagem com origem Empresa > Cliente 
-O método manipula a variável singleQueue, criada dentro da classe, usando-o com um comparativo:
 
-.. code-block:: apex
+Retorno
+    O método manipula a variável singleQueue, criada dentro da classe
+Assinatura
+    public statis void doEnviarMensagens(Set<Id> pSetMensagem)
 
-       if (singleQueue == null) {
-       singleQueue = new SendMessageQueue(pSetMensagemId);
-       singleQueueId = System.enqueueJob(singleQueue);
-            
-e limpando-o caso não seja null:
-
-.. code-block:: apex
-
-        else {
-        System.abortJob(singleQueueId);
-        singleQueue.add(pSetMensagemId);
-        singleQueueId = System.enqueueJob(singleQueue);
-        
-A chamada pode ser realizada da seginte forma:
-
-    ``SendWhatsappMessage.doEnviarMensagens(mapa_id_mensagem.keySet());``
-   
-.. _Objetos : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto
-.. _WACoreExecutionAfter : 
-
-public static void doEnviarContentMedia(String pOrigem, String pDestino, String pChave, String pContentMedia, String pContentSize)
+doEnviarContentMedia()
 -----------------------
 NÃO ESTÁ EM USO// As mensagens com imagens são montadas através deste método
-A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doEnviarContentMedia('origem', 'destino', 'chave', 'contentmedia', 'contentsize');``
-   
-Retorna o body da request
+Retorno
+    Retorna o body da request
+Assinatura
+    public static void doEnviarContentMedia(String pOrigem, String pDestino, String pChave, String pContentMedia, String pContentSize)
 
 public static void doRegistrarNumero(String pDdi, String pNumero, String pOperadora, String pMetodoEnvio)
 -----------------------
