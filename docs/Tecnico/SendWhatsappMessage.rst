@@ -8,8 +8,8 @@ NÃO ESTÁ EM USO// As mensagens são montadas através do método doEnviarMensa
 
 Assinatura
     public static void doEnviarMensagem(String pOrigem, String pDestino, String pChave, String pMensagem, String pIdChat)
-Valor retornado
-    Não tem retorno
+Retorno
+    Retorna o body da request e setta o endpoint
    
 doEnviarMensagens()
 -----------------------
@@ -25,89 +25,135 @@ doEnviarContentMedia()
 NÃO ESTÁ EM USO// As mensagens com imagens são montadas através deste método
 
 Retorno
-    Retorna o body da request
+    Retorna o body da request e setta o endpoint
 Assinatura
     public static void doEnviarContentMedia(String pOrigem, String pDestino, String pChave, String pContentMedia, String pContentSize)
 
-public static void doRegistrarNumero(String pDdi, String pNumero, String pOperadora, String pMetodoEnvio)
+doRegistrarNumero()
 -----------------------
-egistra o número que envia mensagens
-A chamada pode ser realizada da seginte forma:
+Registra o número que envia mensagens
 
-    ``SendWhatsappMessage.doRegistrarNumero('', '', '','');``
-      
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static void doRegistrarNumero(String pDdi, String pNumero, String pOperadora, String pMetodoEnvio)
 
-public static void doAutenticarNumero(String pDdi, String pNumero, String pCodigo)
+
+doAutenticarNumero()
 -----------------------
 Autentifica o número que envia mensagens.
-A chamada pode ser realizada da seginte forma:
-
-    ``SendWhatsappMessage.doAutenticarNumero('', '', '');``
+    
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static void doAutenticarNumero(String pDdi, String pNumero, String pCodigo)
              
-public static void doRegistrarNovoNumero(String oldNumero, String numero, String operadora, String callbackLogin, String callbackPassword, String msgIncompatibilidade, Boolean isAtivo)
+doRegistrarNovoNumero()
 -----------------------
 Método responsável pela chamada do método ``registerNewNumber``
-A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doRegistrarNovoNumero('', '', '', '', '', '', true);``
-                  
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static void doRegistrarNovoNumero(String oldNumero, String numero, String operadora, String callbackLogin, String callbackPassword, String msgIncompatibilidade, Boolean isAtivo)
      
-public static void doVerificaNovoNumero()
+doVerificaNovoNumero()
 -----------------------
 NÃO ESTÁ EM USO// Não recebe nenhum parâmetro e não é chamado por nenhum outro método em nenhuma outra classe, montando o content com informações constantes. 
-A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doRegistrarNovoNumero();``
+Retorno
+    Retorna o body da request e setta o endpoint    
+Assinatura
+    public static void doVerificaNovoNumero()
 
-public static void doRegitrarNovoGrupo()
+
+doRegitrarNovoGrupo()
 -----------------------
 NÃO ESTÁ EM USO// Registra uma nova conversa de grupo. Monta o content com informações constantes. 
-A chamada pode ser realizada da seginte forma:
 
-    ``SendWhatsappMessage.doRegistrarNovoNumero();``
-             
-public static String getQr(String pNumero)
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static void doRegitrarNovoGrupo()
+
+getQr()
 -----------------------
 Esta método é chamado pela método loadQr da classe `WAQrView`_ para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static String getQr(String pNumero)
 
 
 .. _WAQrView : 
              
-public static String requestQr(String pNumero)
+requestQr()
 -----------------------
 Esta método é chamado pelo método requestQr da classe `WAQrRequest`_ para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
+Retorno
+    Retorna o body da request e setta o endpoint
+Assinatura
+    public static String requestQr(String pNumero)
 
 
 .. _WAQrRequest : 
              
              
-public class SendMessageQueue implements Queueable, Database.AllowsCallouts
+SendMessageQueue
 -----------------------
-Método responsável por implementar Queable e chamada de método subsequentes
-    
-public SendMessageQueue(Set<Id> pSetMensagemId) 
+Classe responsável por implementar Queable e chamada de método subsequentes
+
+Retorno
+Assinatura
+    public class SendMessageQueue implements Queueable, Database.AllowsCallouts
+
+SendMessageQueue() 
 -----------------------
-Preenche a variável pSetMensagemId
+Cria a fila de mensagens
+
+Retorno
+    Cria a variáevl setMensagemId e atribui o valor de pSetMensagemId
+Assinatura
+    public SendMessageQueue(Set<Id> pSetMensagemId)
     
-public void add(Set<Id> pSetMensagemId) 
+add() 
 -----------------------
-Método responsável pela chamada de método subsequentes
+Método responsável pela inserção de mensagens a fila
+
+Retorno
+    Adiciona valores à variável setMensagemId
+Assinatura
+    public void add(Set<Id> pSetMensagemId) 
     
-public void execute(QueueableContext context)  
+execute()  
 -----------------------
 Envia as mensagens enfileiradas
     
+Retorno
+    Setta o endpoint
+Assinatura
+    public void execute(QueueableContext context)
+
 public class RemoteMessageEntity
 -----------------------
-Define String id, String corpo, String origem, String destino e chama RemoteMessageEntity
+Classe que define String id, String corpo, String origem, String destino e chama RemoteMessageEntity
+
+Retorno
+Assinatura
+    public class RemoteMessageEntity
     
-public RemoteMessageEntity(MensagemWhatsapp__c pMensagemWa) 
+public RemoteMessageEntity() 
 -----------------------
 Define valores para String id, String corpo, String origem, String destino.
+
+Retorno
+    Variáveis String id, corpo, origem e destino
+Assinatura
+    public RemoteMessageEntity(MensagemWhatsapp__c pMensagemWa) 
 
              
 
