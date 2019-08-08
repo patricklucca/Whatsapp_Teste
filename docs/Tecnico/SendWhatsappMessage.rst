@@ -3,7 +3,7 @@ SendWhatsappMessage
 #################
 
 doEnviarMensagem()
------------------------
+---------------
 NÃO ESTÁ EM USO// As mensagens são montadas através do método doEnviarMensagem
 
 Assinatura
