@@ -5,7 +5,7 @@ O WAActionTemplate é o extends obrigatório caso queira usar um componente ligh
 Nele temos os seguintes atributos:
 
 .. image:: WAActionTemplate.png
-    :width: 100px
+    :width: 300px
     :alt: Solidity logo
     :align: center
 
