@@ -9,14 +9,14 @@ Se o metadado utilizar um Componente Lightning deve implementar o extends WAActi
     :alt: Solidity logo
     :align: center
  
- Relacionar Contato ou Lead
+Relacionar Contato ou Lead
  
 .. image:: metadados2.png
     :width: 500px
     :alt: Solidity logo
     :align: center
  
- O metadado Relacionar Contato ou Lead é utilizado no componente WAMessenger para relacionar um Contato do Whatsapp à um Contato ou uma Lead do Salesforce. O corpo e suas funcionalidades estão no componente lightning WACoreActionRelacionamento.
+O metadado Relacionar Contato ou Lead é utilizado no componente WAMessenger para relacionar um Contato do Whatsapp à um Contato ou uma Lead do Salesforce. O corpo e suas funcionalidades estão no componente lightning WACoreActionRelacionamento.
 
 WA Core Antes da Entrada Mensagem
  
@@ -25,7 +25,7 @@ WA Core Antes da Entrada Mensagem
     :alt: Solidity logo
     :align: center
     
- O metadado WA Core Antes da Entrada Mensagem utiliza a classe apex WACoreExecutionBefore que é chamado pelo acionador MensagemWhatsapp_biu, criando novas conversas caso a mensagem não tenha uma conversa relacionada e relacionando mensagens com suas conversas já existentes.
+O metadado WA Core Antes da Entrada Mensagem utiliza a classe apex WACoreExecutionBefore que é chamado pelo acionador MensagemWhatsapp_biu, criando novas conversas caso a mensagem não tenha uma conversa relacionada e relacionando mensagens com suas conversas já existentes.
 
 WA Core Depois da Entrada Mensagem
  
