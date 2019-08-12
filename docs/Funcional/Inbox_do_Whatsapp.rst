@@ -2,7 +2,7 @@
 Inbox do Whatsapp
 #################
 
-O Inbox do Whatsapp È acessado atravÈs da barra superior. Acessando-a È possÌvel realizar as seguintes aÁıes:
+O Inbox do Whatsapp √© acessado atrav√©s da barra superior. Acessando-a √© poss√≠vel realizar as seguintes a√ß√µes:
 
 SELECIONAR CONVERSA
 -----------------------
@@ -12,33 +12,33 @@ SELECIONAR CONVERSA
     :alt: Solidity logo
     :align: center
     
-AtravÈs da barra lateral esquerda pode-se pode-se selecionar qual conversa abrir. AtravÈs da conversa È possÌvel ler as mensagens enviadas e responder ao cliente.
+Atrav√©s da barra lateral esquerda pode-se pode-se selecionar qual conversa abrir. Atrav√©s da conversa √© poss√≠vel ler as mensagens enviadas e responder ao cliente.
 
 VINCULAR/DESVINCULAR CONVERSA
 -----------------------
 
-Dentro da conversa È possÌvel vincul·-la a um lead ou uma conta atravÈs do bot„o apresentado no canto superior direito da mesma.
+Dentro da conversa √© poss√≠vel vincul√°-la a um lead ou uma conta atrav√©s do bot√£o apresentado no canto superior direito da mesma.
 
 .. image:: Inbox2.png
     :width: 500px
     :alt: Solidity logo
     :align: center
     
-Ao seleciona-lo um painel aparecer· na conversa, onde ser· possÌvel selecionar se a conversa deve ser relacionada a um Lead ou a um Contato
+Ao seleciona-lo um painel aparecer√° na conversa, onde ser√° poss√≠vel selecionar se a conversa deve ser relacionada a um Lead ou a um Contato
 
 .. image:: Inbox3.png
     :width: 500px
     :alt: Solidity logo
     :align: center
     
-A desviculaÁ„o da conversa È realizada atravÈs deste painel em uma conversa que j· esteja vinculada. Para desvincular deve-se clicar no X onde est· o nome da Conta/Lead e salvar, assim voltando para como seria no inÌcio da conversa
+A desvicula√ß√£o da conversa √© realizada atrav√©s deste painel em uma conversa que j√° esteja vinculada. Para desvincular deve-se clicar no X onde est√° o nome da Conta/Lead e salvar, assim voltando para como seria no in√≠cio da conversa
 
 .. image:: Inbox5.png
     :width: 300px
     :alt: Solidity logo
     :align: center
 
-A criaÁ„o de uma Conta/Lead pode tambÈm ser realizada atravÈs deste painel. Ao pesquisar por um registro inexistente uma caixa de di·logo aparecer·, ao clicar nela um painel de pesquisa e criaÁ„o de Conta/Lead ser· aberto, dependendo do que estiver sido selecionado previamente.
+A cria√ß√£o de uma Conta/Lead pode tamb√©m ser realizada atrav√©s deste painel. Ao pesquisar por um registro inexistente uma caixa de di√°logo aparecer√°, ao clicar nela um painel de pesquisa e cria√ß√£o de Conta/Lead ser√° aberto, dependendo do que estiver sido selecionado previamente.
 
 .. image:: Inbox6.png
     :width: 500px
@@ -54,3 +54,5 @@ A criaÁ„o de uma Conta/Lead pode tambÈm ser realizada atravÈs deste painel. Ao p
     :width: 500px
     :alt: Solidity logo
     :align: center
+    
+Ap√≥s a cria√ß√£o a Conta/Lead pode ser vinculada a Conversa
