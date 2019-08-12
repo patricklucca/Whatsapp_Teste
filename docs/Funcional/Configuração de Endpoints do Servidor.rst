@@ -10,7 +10,7 @@ Parâmetro Global
 
 Entre na Configuração
 
-.. image:: inbox1.png
+.. image:: Inbox1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -31,7 +31,7 @@ Site Remoto
 
 Entre na Configuração
 
-.. image:: inbox1.png
+.. image:: Inbox1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
