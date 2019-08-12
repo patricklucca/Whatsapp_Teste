@@ -1,8 +1,8 @@
-MesagemWhatsappHandler
+MensagemWhatsappHandler
 
 executeTrigger(pMapOldRecord, pListRecord, pBeforeInsert, pBeforeUpdate, pAfterInsert, pAfterUpdate)
 
-Executa uma determinada Ação do Wahtsapp do tipo Entrada de Mensagem, antes ou depois da inserção ou update de uma Mensagem do Whatsapp.
+Executa uma determinada AÃ§Ã£o do Wahtsapp do tipo Entrada de Mensagem, antes ou depois da inserÃ§Ã£o ou update de uma Mensagem do Whatsapp.
 
 Assinatura
 
