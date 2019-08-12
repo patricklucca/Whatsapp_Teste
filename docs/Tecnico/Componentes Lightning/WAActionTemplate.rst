@@ -18,7 +18,7 @@ Método utilizado para fechamento da modal.
 
 Exemplo de utilização do componente como extends:
 
-   .. code-block:: python
+   .. code-block:: apex
 
       <aura:component extends="whats:WAActionTemplate" >
          <!-- Header -->
