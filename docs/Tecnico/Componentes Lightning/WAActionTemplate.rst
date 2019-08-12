@@ -1,21 +1,22 @@
-O WAActionTemplate é o extends obrigatório caso queira usar um componente lightning no metadado Ação do Whatsapp do Tipo Messenger. Ele funciona como uma modal, com o layout separado em três partes, cabeçalho, corpo e rodapé.
+O WAActionTemplate Ã© o extends obrigatÃ³rio caso queira usar um componente lightning no metadado AÃ§Ã£o do Whatsapp do Tipo Messenger. Ele funciona como uma modal, com o layout separado em trÃªs partes, cabeÃ§alho, corpo e rodapÃ©.
 Nele temos os seguintes atributos:
 
-Entre em Configuração.
+Entre em ConfiguraÃ§Ã£o.
+
 .. image:: WAActionTemplate.png
     :width: 500px
     :alt: Solidity logo
     :align: center
 
-Além dos atributos, tem um método para fechamento da modal close().
+AlÃ©m dos atributos, tem um mÃ©todo para fechamento da modal close().
 
 close()
 
-Método utilizado para fechamento da modal.
+MÃ©todo utilizado para fechamento da modal.
 
 
 
-Exemplo de utilização do componente como extends:
+Exemplo de utilizaÃ§Ã£o do componente como extends:
 
 <aura:component extends="whats:WAActionTemplate" >
    <!-- Header -->
@@ -40,11 +41,11 @@ Exemplo de utilização do componente como extends:
    </lightning:layout>
 </aura:component>
 
-Referências:
+ReferÃªncias:
 Componente Lightning
 WAMessenger
 WACoreActionRelacionamento
 Metadado
-Ação do Whatsapp
+AÃ§Ã£o do Whatsapp
 Relacionar Contato ou Lead
 
