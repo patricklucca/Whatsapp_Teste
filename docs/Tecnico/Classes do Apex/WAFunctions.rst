@@ -1,13 +1,15 @@
+############
 WAFunctions
+############
 
 getVfHost()
-
-Retorna a URL da organização.
-
+  Retorna a URL da organizaÃ§Ã£o.
 Assinatura
-
-public static String getVfHost()
-
+  public static String getVfHost()
 Valor retornado
+  Tipo:	String
+Exemplo
 
-Tipo:	String
+   .. code-block:: apex
+
+      WAFunctions.getVfHost();
