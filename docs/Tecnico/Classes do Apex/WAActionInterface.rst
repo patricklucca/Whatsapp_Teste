@@ -1,40 +1,52 @@
+#################
 WAActionInterface
+#################
 
-onInicioConversa(pListConversaWhatsapp)
-
-Método para ser executado no início de uma conversa nas classes que a implementam.
-
+onInicioConversa()
+  MÃ©todo para ser executado no inÃ­cio de uma conversa nas classes que a implementam.
 Assinatura
-
-void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
-
+  void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: apex
 
-onFimConversa(pListConversaWhatsapp)
-
-Método para ser executado no fim de uma conversa nas classes que a implementam.
-
+      Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+      Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, ConversaWhatsapp__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+      List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+      List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+      new WACoreExecutionAfter().onInicioConversa(lstChanged);
+      
+onFimConversa()
+  MÃ©todo para ser executado no fim de uma conversa nas classes que a implementam.
 Assinatura
-
-void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
-
+  void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: apex
 
+      Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+      Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, ConversaWhatsapp__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+      List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+      List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+      new WACoreExecutionAfter().onFimConversa(lstChanged);
+        
 onEntradaMensagem(pListMensagemWhatsapp)
-
-Método para ser executado ao chegar uma nova mensagem nas classes que a implementam.
-
+  MÃ©todo para ser executado ao chegar uma nova mensagem nas classes que a implementam.
 Assinatura
-
-void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
-
+  void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: apex
 
-
+      Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+      Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, ConversaWhatsapp__c, Corpo__c, Destino__c, Direcao__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+      List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+      List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+      new WACoreExecutionAfter().onEntradaMensagem(lstChangedMensagem);      
 
