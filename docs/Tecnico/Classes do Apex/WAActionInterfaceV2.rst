@@ -1,28 +1,35 @@
-
+###################
 WAActionInterfaceV2
+###################
 
-onClick(pConversaWhatsapp)
-
-MÈtodo para ser executado ao clicar em algum bot„o atravÈs da classe que a implementam.
-
+onClick()
+  M√©todo para ser executado ao clicar em algum bot√£o atrav√©s da classe que a implementam.
 Assinatura
-
-void onClick(ConversaWhatsapp__c pConversaWhatsapp)
-
+  void onClick(ConversaWhatsapp__c pConversaWhatsapp)
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: apex
 
-isDisabled(pConversaWhatsapp)
+      public class Exemplo implements WAACtionInterfaceV2
+      public void onClick(ConversaWhatsapp__c pConversaWhatsapp) {
+        setAgenteResponsavel(pConversaWhatsapp);
+      }
 
-MÈtodo para desabilitar/habilidar um bot„o atravÈs da classe que a implementam.
-
+isDisabled()
+  M√©todo para desabilitar/habilidar um bot√£o atrav√©s da classe que a implementam.
 Assinatura
-
-Boolean isDisabled(ConversaWhatsapp__c pConversaWhatsapp)
-
+  Boolean isDisabled(ConversaWhatsapp__c pConversaWhatsapp)
 Valor retornado
+  Tipo:	Boolean.
+Exemplo
 
-Tipo:	Boolean.
+   .. code-block:: apex
+
+      public class Exemplo implements WAACtionInterfaceV2
+      public Boolean isDisabled(ConversaWhatsapp__c pConversaWhatsapp) {
+        return !String.isEmpty(pConversaWhatsapp.AgenteResponsavel__c);
+      }
 
 
