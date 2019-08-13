@@ -27,10 +27,13 @@ Assinatura
 Valor retornado
   Sem retorno.
 Exemplo
-  ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
-  WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
-  ctlexemplo.init();
-  ctlexemplo.getResponseMessage();
+
+   .. code-block:: apex
+
+      ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
+      WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
+      ctlexemplo.init();
+      ctlexemplo.getResponseMessage();
   
 init()
   Executa outros métodos privados da classe.
@@ -39,10 +42,13 @@ Assinatura
 Valor retornado
   Sem retorno.
 Exemplo
-  ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
-  WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
-  ctlexemplo.init();
-  ctlexemplo.getResponseMessage();
+
+   .. code-block:: apex
+
+      ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
+      WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
+      ctlexemplo.init();
+      ctlexemplo.getResponseMessage();
   
 getResponseMessage()
   Retorna a mensagem do json feito com o servidor ou Erro inesperado, caso a mensagem esteja vazia.
@@ -51,10 +57,13 @@ Assinatura
 Valor retornado
   Tipo:	String.
 Exemplo
-  ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
-  WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
-  ctlexemplo.init();
-  ctlexemplo.getResponseMessage();  
+
+   .. code-block:: apex
+
+      ParametroWhatsapp__c pw = [SELECT Id, Celular__c FROM ParametroWhatsapp__c Where Celular__c = '13986751234' LIMIT 1];
+      WAQrRequest_ctl ctlexemplo = new WAQrRequest_ctl(new ApexPages.StandardController(pw));
+      ctlexemplo.init();
+      ctlexemplo.getResponseMessage();  
   
 requestQr() 
   Faz o json de requisição de um QR Code para o ParametroWhatsapp__c da variável local param.
@@ -63,20 +72,23 @@ Assinatura
 Valor retornado
   Sem retorno.
 Exemplo
-   List<ParametroWhatsapp__c> lstRst = [
-       SELECT
-           Id
-           ,Name
-           ,Celular__c
-       FROM
-           ParametroWhatsapp__c
-       WHERE
-            Id = 'id_do_parametro'
-   ];
-   if (!lstRst.isEmpty()) {
-        param = lstRst.get(0);
-        requestQr(); 
-   }
+
+   .. code-block:: apex
+
+       List<ParametroWhatsapp__c> lstRst = [
+           SELECT
+               Id
+               ,Name
+               ,Celular__c
+           FROM
+               ParametroWhatsapp__c
+           WHERE
+                Id = 'id_do_parametro'
+       ];
+       if (!lstRst.isEmpty()) {
+            param = lstRst.get(0);
+            requestQr(); 
+       }
     
   
   
