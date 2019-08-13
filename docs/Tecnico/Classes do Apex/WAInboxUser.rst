@@ -11,7 +11,7 @@ Retorno
       WAActionHandler.doExecuteWaAction(pAcaoWhatsapp, pConversaWhatsapp);
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -23,7 +23,7 @@ Retorno
     Retorna a variável result, que é uma lista das informações do usuário
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -35,7 +35,7 @@ Retorno
     Retorna a variável result, que é uma lista com as informações de AcaoWhatsapp__mdt
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -47,7 +47,7 @@ Expecificação
     Possui as variáveis AcaoWhatsapp__mdt e isDisabled e o método AcaoInbox
  Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -59,7 +59,7 @@ Acao
     Cria uma variável tipo metadado AcaoWhatsapp__mdt
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -71,7 +71,7 @@ Acao
     Cria uma variável tipo booleano isDisabled
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
@@ -83,7 +83,7 @@ Acao
     Atribui valores a isDisabled e action
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl
       
