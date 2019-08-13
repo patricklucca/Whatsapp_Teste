@@ -1,26 +1,34 @@
+###############
 WAActionHandler
+###############
 
 doExecuteWaAction(pAcaoWhatsapp, pObjectParam)
-
-Executa outros mÈtodos privados da classe, os mÈtodos executados depende do valor do atributo Assincrono__c do par‚metro pAcaowhatsapp.
-
+  Executa outros m√©todos privados da classe, os m√©todos executados depende do valor do atributo Assincrono__c do par√¢metro pAcaowhatsapp.
 Assinatura
-
-public static void doExecuteWaAction(AcaoWhatsapp__mdt pAcaoWhatsapp, Object pObjectParam)
-
+  public static void doExecuteWaAction()
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
-
-getWaAction(pAcaoWhatsapp)
-
-Retorna a inst‚ncia de uma classe apex WAActionInterface.
-
+   .. code-block:: apex
+   
+      WAActionHandler.doExecuteWaAction(new AcaoWhatsapp__mdt(
+          Assincrono__c = true,
+          ClasseApex__c = 'WACoreExecutionAfter',
+          TipoAcao__c = 'Entrada de Mensagem'
+      ), lstChangedMensagem);      
+      
+getWaAction()
+  Retorna a inst√¢ncia de uma classe apex WAActionInterface.
 Assinatura
-
-public static WAActionInterface getWaAction(AcaoWhatsapp__mdt pAcaoWhatsapp)
-
+  public static WAActionInterface getWaAction(AcaoWhatsapp__mdt pAcaoWhatsapp)
 Valor retornado
+  Tipo: 	WAActionInterface.
+Exemplo
 
-Tipo: 	WAActionInterface.
+   .. code-block:: apex
 
+      WAActionHandler.getWaAction(new AcaoWhatsapp__mdt(
+            Assincrono__c = true,
+            ClasseApex__c = 'WACoreExecutionAfter',
+            TipoAcao__c = 'Entrada de Mensagem);
