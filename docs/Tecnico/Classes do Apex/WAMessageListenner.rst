@@ -11,7 +11,7 @@ Valor retornado
   Tipo do retorno do set:		sem retorno.
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       WAMessageListenner_ctl mCtl = new WAMessageListenner_ctl();
       mCtl.pushTopicId = 'afjkafsjk';
