@@ -1,37 +1,52 @@
+#####################
 WACoreExecutionBefore
+#####################
 
-onInicioConversa(pListConversaWhatsapp)
-
-ImplementaÁ„o da WAActionInterface, n„o est· sendo utilizado.
-
+onInicioConversa()
+  Implementa√ß√£o da WAActionInterface, n√£o est√° sendo utilizado.
 Assinatura
-
-public void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
-
+  public void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
 Valor retornado
+  Sem retorno.
+Exemplo
+        Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+        Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, Corpo__c, Destino__c, Direcao__c, NomeOrigem__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+        List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+        List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+        lstChangedMensagem[0].ConversaWhatsapp__c = null;
+        lstChangedMensagem[0].Destino__c = '22222222';
+        lstChangedMensagem[0].Origem__c = '22222222';
+        new WACoreExecutionBefore().onInicioConversa(lstChanged);
 
-Sem retorno.
-
-onFimConversa(pListConversaWhatsapp)
-
-ImplementaÁ„o da WAActionInterface, n„o est· sendo utilizado.
-
+onFimConversa()
+  Implementa√ß√£o da WAActionInterface, n√£o est√° sendo utilizado.
 Assinatura
-
-public void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
-
+  public void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
 Valor retornado
-
-Sem retorno.
-
-onEntradaMensagem(pListMensagemWhatsapp)
-
-ImplementaÁ„o da WAActionInterface, executa outros mÈtodos privados da classe.
-
+  Sem retorno.
+Exemplo
+        Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+        Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, Corpo__c, Destino__c, Direcao__c, NomeOrigem__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+        List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+        List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+        lstChangedMensagem[0].ConversaWhatsapp__c = null;
+        lstChangedMensagem[0].Destino__c = '22222222';
+        lstChangedMensagem[0].Origem__c = '22222222';
+        new WACoreExecutionBefore().onFimConversa(lstChanged);
+  
+onEntradaMensagem()
+  Implementa√ß√£o da WAActionInterface, executa outros m√©todos privados da classe.
 Assinatura
-
-public void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
-
+  public void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
 Valor retornado
-
-Sem retorno.
+  Sem retorno.
+Exemplo
+        Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+        Map<Id, MensagemWhatsapp__c> mapResultMensagem = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, Corpo__c, Destino__c, Direcao__c, NomeOrigem__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
+        List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+        List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
+        lstChangedMensagem[0].ConversaWhatsapp__c = null;
+        lstChangedMensagem[0].Destino__c = '22222222';
+        lstChangedMensagem[0].Origem__c = '22222222';
+        new WACoreExecutionBefore().onEntradaMensagem(lstChangedMensagem);
+   
