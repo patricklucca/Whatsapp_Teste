@@ -1,21 +1,19 @@
+#################
 WAHostControl_ctl
+#################
 
 getHost()
 
-Retorna a URL da organização.
+Retorna a URL da organizaÃ§Ã£o.
 
 Assinatura
-
-public String getHost()
-
+  public String getHost()
 Valor retornado
-
-Tipo:	String
-
+  Tipo:	String
 Exemplo
-
-//Exemplo de link da home de uma organização
-//https://exemplo-dev-ed.lightning.force.com/lightning/page/home
-WAHostControl_ctl wahost = new WAHostControl_ctl();
-String s = wahost.getHost();
-system.assertEquals(s, 'exemplo-dev-ed.my.salesforce.com');
+       .. code-block:: apex
+      //Exemplo de link da home de uma organizaÃ§Ã£o
+      //https://exemplo-dev-ed.lightning.force.com/lightning/page/home
+      WAHostControl_ctl wahost = new WAHostControl_ctl();
+      String s = wahost.getHost();
+      system.assertEquals(s, 'exemplo-dev-ed.my.salesforce.com');
