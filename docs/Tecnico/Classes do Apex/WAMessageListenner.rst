@@ -1,42 +1,39 @@
+######################
 WAMessageListenner_ctl
+######################
 
 pushTopicId
-
-Get e Set da variável pública do tipo String.
-
+  Get e Set da variÃ¡vel pÃºblica do tipo String.
 Assinatura
-
-public String pushTopicId {get;set;}
-
+  public String pushTopicId {get;set;}
 Valor retornado
+  Tipo de retorno do get:		String.
+  Tipo do retorno do set:		sem retorno.
+Exemplo
 
-Tipo de retorno do get:		String.
-Tipo do retorno do set:		sem retorno.
+   .. code-block:: python
 
-
+      WAMessageListenner_ctl mCtl = new WAMessageListenner_ctl();
+      mCtl.pushTopicId = 'afjkafsjk';
 
 canExecuteScript
-
-Get e Set da variável pública do tipo Boolean.
-
+  Get e Set da variÃ¡vel pÃºblica do tipo Boolean.
 Assinatura
-
-public Boolean canExecuteScript {get;set;}
-
+  public Boolean canExecuteScript {get;set;}
 Valor retornado
-
-Tipo de retorno do get:		Boolean.
-Tipo do retorno do set:		sem retorno.
+  Tipo de retorno do get:		Boolean.
+  Tipo do retorno do set:		sem retorno.
 
 
 init()
-
-Atribui o valor booleano para a variável pública local canExecuteScript.
-
+  Atribui o valor booleano para a variÃ¡vel pÃºblica local canExecuteScript.
 Assinatura
-
-public void init()
-
+  public void init()
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: python
+
+      WAMessageListenner_ctl mCtl = new WAMessageListenner_ctl();
+      mCtl.init();
