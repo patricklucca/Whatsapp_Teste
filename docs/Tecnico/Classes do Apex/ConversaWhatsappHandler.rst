@@ -16,6 +16,4 @@ Exemplo
       List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
       lstChanged[0].Status__c = 'Fechado';
       ConversaWhatsappHandler.executeTrigger(mapResult, lstChanged, true, true, true, true); 
-      ConversaWhatsappHandler.executeFimConversa(new AcaoWhatsapp__mdt[]{
-          new AcaoWhatsapp__mdt(TipoAcao__c = 'Fim de Conversa', ClasseApex__c = 'WACoreExecutionAfter', Assincrono__c = true)
-      });
+
