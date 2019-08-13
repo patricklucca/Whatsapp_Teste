@@ -10,6 +10,7 @@ Assinatura
 Valor retornado
   Tipo:	String.
 Exemplo
+  .. code-block:: apex
   String result = ''
   if (!String.isEmpty(iconId))
   result = 'https://'+getHostUrl()+'/servlet/servlet.FileDownload?file='+iconId;
@@ -22,6 +23,7 @@ Assinatura
 Valor retornado
   Tipo:	String.
 Exemplo
+  .. code-block:: apex
   String result = ''
   result = getHostUrl()
   return result;
