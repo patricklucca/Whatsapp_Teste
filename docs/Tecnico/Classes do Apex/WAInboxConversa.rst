@@ -24,6 +24,6 @@ Valor retornado
   Tipo:	String.
 Exemplo
   .. code-block:: apex
-  String result = ''
-  result = getHostUrl()
-  return result;
+   String result = ''
+   result = getHostUrl()
+   return result;
