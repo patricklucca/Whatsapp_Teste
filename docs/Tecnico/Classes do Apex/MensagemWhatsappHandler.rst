@@ -12,7 +12,7 @@ Valor retornado
   Sem retorno.
 Exemplo
 
-   .. code-block:: python
+   .. code-block:: apex
 
       Map<Id, MensagemWhatsapp__c> mapResult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name, Corpo__c, Direcao__c, Destino__c, Origem__c, Status__c FROM MensagemWhatsapp__c]);
       List<MensagemWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
