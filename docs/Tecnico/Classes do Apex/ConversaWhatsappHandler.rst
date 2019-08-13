@@ -1,13 +1,21 @@
+#######################
 ConversaWhatsappHandler
+#######################
 
-executeTrigger(pMapOldRecord, pListRecord, pBeforeInsert, pBeforeUpdate, pAfterInsert, pAfterUpdate)
-
-Atribui os par‚metro passados ‡ vari·veis da classe e executa outros mÈtodos da mesma.
-
+executeTrigger()
+  Atribui os par√¢metro passados √† vari√°veis da classe e executa outros m√©todos da mesma.
 Assinatura
-
-public static void executeTrigger(Map<Id, MensagemWhatsapp__c> pMapOldRecord, List<MensagemWhatsapp__c> pListRecord, Boolean pBeforeInsert, Boolean pBeforeUpdate, Boolean pAfterInsert, Boolean pAfterUpdate) 
-
+  public static void executeTrigger(Map<Id, MensagemWhatsapp__c> pMapOldRecord, List<MensagemWhatsapp__c> pListRecord, Boolean pBeforeInsert, Boolean pBeforeUpdate, Boolean pAfterInsert, Boolean pAfterUpdate) 
 Valor retornado
+  Sem retorno.
+Exemplo
 
-Sem retorno.
+   .. code-block:: apex
+
+      Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, Status__c FROM ConversaWhatsapp__c]);
+      List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+      lstChanged[0].Status__c = 'Fechado';
+      ConversaWhatsappHandler.executeTrigger(mapResult, lstChanged, true, true, true, true); 
+      ConversaWhatsappHandler.executeFimConversa(new AcaoWhatsapp__mdt[]{
+          new AcaoWhatsapp__mdt(TipoAcao__c = 'Fim de Conversa', ClasseApex__c = 'WACoreExecutionAfter', Assincrono__c = true)
+      });
