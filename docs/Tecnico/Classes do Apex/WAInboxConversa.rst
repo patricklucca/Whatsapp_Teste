@@ -10,11 +10,13 @@ Assinatura
 Valor retornado
   Tipo:	String.
 Exemplo
-  .. code-block:: apex
-  String result = ''
-  if (!String.isEmpty(iconId))
-  result = 'https://'+getHostUrl()+'/servlet/servlet.FileDownload?file='+iconId;
-  return result; 
+
+   .. code-block:: apex
+
+      String result = ''
+      if (!String.isEmpty(iconId))
+      result = 'https://'+getHostUrl()+'/servlet/servlet.FileDownload?file='+iconId;
+      return result; 
 
 getHostUrl()
   Retorna a URL da organização.
@@ -23,7 +25,9 @@ Assinatura
 Valor retornado
   Tipo:	String.
 Exemplo
-  .. code-block:: apex
-  String result = ''
-  result = getHostUrl()
-  return result;
+
+   .. code-block:: apex
+
+      String result = ''
+      result = getHostUrl()
+      return result;
