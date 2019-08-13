@@ -11,7 +11,9 @@ Assinatura
 Valor retornado
   Tipo:	String
 Exemplo
-       .. code-block:: apex
-       WAHostControl_ctl wahost = new WAHostControl_ctl();
-       String s = wahost.getHost();
-       system.assertEquals(s, 'exemplo-dev-ed.my.salesforce.com');
+
+   .. code-block:: python
+
+      WAHostControl_ctl wahost = new WAHostControl_ctl();
+      String s = wahost.getHost();
+      system.assertEquals(s, 'exemplo-dev-ed.my.salesforce.com');
