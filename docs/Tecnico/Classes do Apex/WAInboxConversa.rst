@@ -1,28 +1,26 @@
+###############
+WAInboxConversa
+###############
 @AuraEnabled
-getIconUrl(pContatoId)
-
-Retorna a URL do Ìcone do Contato do Whatsapp caso o mesmo tenha um Ìcone, caso contr·rio retorna uma string vazia.
-
+getIconUrl()
+  Retorna a URL do √≠cone do Contato do Whatsapp caso o mesmo tenha um √≠cone, caso contr√°rio retorna uma string vazia.
 Assinatura
-
-public static String getIconUrl(String pContatoId)
-
+  public static String getIconUrl(String pContatoId)
 Valor retornado
-
-Tipo:	String.
-
+  Tipo:	String.
 Exemplo
-
-
+  String result = ''
+  if (!String.isEmpty(iconId))
+  result = 'https://'+getHostUrl()+'/servlet/servlet.FileDownload?file='+iconId;
+  return result; 
 
 getHostUrl()
-
-Retorna a URL da organizaÁ„o.
-
+  Retorna a URL da organiza√ß√£o.
 Assinatura
-
-public static String getHostUrl()
-
+  public static String getHostUrl()
 Valor retornado
-
-Tipo:	String.
+  Tipo:	String.
+Exemplo
+  String result = ''
+  result = getHostUrl()
+  return result;
