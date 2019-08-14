@@ -13,7 +13,9 @@ Exemplo
 
    .. code-block:: apex
 
-      WAMessageListenner_ctl
+      WAInboxUser.doExecuteAction(doExecuteAction(new AcaoWhatsapp__mdt[]{
+      new AcaoWhatsapp__mdt(TipoAcao__c = 'Entrada de Mensagem', ClasseApex__c = 'WACoreExecutionAfter', Assincrono__c = true)
+      }, 'a021U000007pg2FQAQ');
       
 getCurrentUser()
 ---------------
@@ -25,7 +27,7 @@ Exemplo
 
    .. code-block:: apex
 
-      WAMessageListenner_ctl
+      WAInboxUser_ctl.getCurrentUser();
       
 getWAActions()
 ---------------
@@ -37,55 +39,11 @@ Exemplo
 
    .. code-block:: apex
 
-      WAMessageListenner_ctl
-      
-AcaoInbox
----------------
-Assinatura
-    public class AcaoInbox
-Expecificação
-    Possui as variáveis AcaoWhatsapp__mdt e isDisabled e o método AcaoInbox
- Exemplo
+      Map<Id, ConversaWhatsapp__c> mapResult = new Map<Id, ConversaWhatsapp__c>([SELECT Id, Name, AgenteResponsavel__c, ContatoWhatsapp__r.Name, ContatoWhatsapp__r.Numero__c, ParametroWhatsapp__r.Celular__c, ParametroWhatsapp__r.Name, Status__c FROM ConversaWhatsapp__c]);
+      List<ConversaWhatsapp__c> lstChanged = mapResult.values().deepClone(true, true, true);
+      WAInboxUser_ctl.getWAActions(lstChanged[0]);
 
-   .. code-block:: apex
 
-      WAMessageListenner_ctl
-      
-AcaoWhatsapp__mdt
----------------
-Assinatura
-    public AcaoWhatsapp__mdt action;
-Acao
-    Cria uma variável tipo metadado AcaoWhatsapp__mdt
-Exemplo
-
-   .. code-block:: apex
-
-      WAMessageListenner_ctl
-      
-isDisabled
----------------
-Assinatura
-    public Boolean isDisabled;
-Acao
-    Cria uma variável tipo booleano isDisabled
-Exemplo
-
-   .. code-block:: apex
-
-      WAMessageListenner_ctl
-      
-AcaoInbox()
----------------
-Assinatura
-    public AcaoInbox(AcaoWhatsapp__mdt pAcaoWhatsapp, ConversaWhatsapp__c pConversaWhatsapp)
-Acao
-    Atribui valores a isDisabled e action
-Exemplo
-
-   .. code-block:: apex
-
-      WAMessageListenner_ctl
       
       
       
