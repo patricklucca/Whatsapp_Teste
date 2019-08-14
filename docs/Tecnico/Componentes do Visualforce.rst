@@ -1,5 +1,5 @@
 #################
-CaComponentes do Visualforce
+Componentes do Visualforce
 #################
 
 Para acessar os Componentes do Visualforce:
