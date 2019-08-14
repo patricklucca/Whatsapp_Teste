@@ -1,15 +1,18 @@
+#######################
+P√°ginas do Visualforce
+#######################
 Para acessar os Componentes do Visualforce:
 
-Entre em ConfiguraÁ„o.
+Entre em Configura√ß√£o.
 
 .. image:: configimg.png
     :width: 300px
     :alt: Solidity logo
     :align: center
     
-Escreva p·ginas na busca r·pida e clique em P·ginas do Visualforce.
+Escreva p√°ginas na busca r√°pida e clique em P√°ginas do Visualforce.
 
-Nele constar· as seguintes p·ginas do visualforce ligado ao pacote instalado:
+Nele constar√° as seguintes p√°ginas do visualforce ligado ao pacote instalado:
 
 .. image:: paginasvisualforce1.png
     :width: 300px
@@ -18,11 +21,11 @@ Nele constar· as seguintes p·ginas do visualforce ligado ao pacote instalado:
   
 WAHostControl
 
-O WAHostControl È utilizado para pegar o host da org.
+O WAHostControl √© utilizado para pegar o host da org.
 
 QR Code
 
-O QR Code È campo utilizado no layout de p·gina do objeto Par‚metro Whatsapp, nele È apresentado o QR Code para conectar o whatsapp no servidor.
+O QR Code √© campo utilizado no layout de p√°gina do objeto Par√¢metro Whatsapp, nele √© apresentado o QR Code para conectar o whatsapp no servidor.
 
 .. image:: paginasvisualforce2.png
     :width: 500px
@@ -31,7 +34,7 @@ O QR Code È campo utilizado no layout de p·gina do objeto Par‚metro Whatsapp, ne
  
 WAQrRequest
 
-O WAQrRequest È um bot„o personalizado utilizado no layout de p·gina do objeto Par‚metro Whatsapp, ao clicar nele, solicita um QR Code ao servidor.
+O WAQrRequest √© um bot√£o personalizado utilizado no layout de p√°gina do objeto Par√¢metro Whatsapp, ao clicar nele, solicita um QR Code ao servidor.
 
 .. image:: paginasvisualforce3.png
     :width: 500px
