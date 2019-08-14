@@ -6,7 +6,7 @@ Para acessar os Componentes do Visualforce:
 Entre em Configuração.
 
 .. image:: configimg.png
-    :width: 300px
+    :width: 200px
     :alt: Solidity logo
     :align: center
     
@@ -20,11 +20,11 @@ Nele constará as seguintes páginas do visualforce ligado ao pacote instalado:
     :align: center
   
 WAHostControl
-
+-------------
 O WAHostControl é utilizado para pegar o host da org.
 
 QR Code
-
+---------
 O QR Code é campo utilizado no layout de página do objeto Parâmetro Whatsapp, nele é apresentado o QR Code para conectar o whatsapp no servidor.
 
 .. image:: paginasvisualforce2.png
@@ -33,7 +33,7 @@ O QR Code é campo utilizado no layout de página do objeto Parâmetro Whatsapp,
     :align: center
  
 WAQrRequest
-
+-----------
 O WAQrRequest é um botão personalizado utilizado no layout de página do objeto Parâmetro Whatsapp, ao clicar nele, solicita um QR Code ao servidor.
 
 .. image:: paginasvisualforce3.png
