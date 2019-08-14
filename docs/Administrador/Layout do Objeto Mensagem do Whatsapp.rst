@@ -16,22 +16,22 @@ Os campos marcados com um asterisco são os campos obrigatórios, campos que os 
 
 Definição dos campos:
   
-  Código da Mensagem do Whatsapp: Campo de nome da mensagem, um número gerado automaticamente através de uma mascara 
+ Código da Mensagem do Whatsapp: Campo de nome da mensagem, um número gerado automaticamente através de uma mascara 
   
-  Destino: Numero para o qual a mensagem é mandada
+ Destino: Numero para o qual a mensagem é mandada
   
-  Direção: Difere 
+ Direção: Difere 
   
-  Id Externo: ID da mensagem no servidor
+ Id Externo: ID da mensagem no servidor
   
-  Corpo: Conteúdo da mensagem
+ Corpo: Conteúdo da mensagem
   
-  Nome de Origem: Numero do qual a mensagem foi mandada com máscasa
+ Nome de Origem: Numero do qual a mensagem foi mandada com máscasa
   
-  Origem: Numero do qual a mensagem foi mandada
+ Origem: Numero do qual a mensagem foi mandada
   
-  Status: Monstra se a mensagem foi enviada ou lida
+ Status: Monstra se a mensagem foi enviada ou lida
   
-  Conversar do Whatsapp: Código da conversa em que a mensagem foi enviada
+ Conversar do Whatsapp: Código da conversa em que a mensagem foi enviada
 
 
