@@ -7,7 +7,7 @@ Para acessar o Process Builder:
 Entre em Configuração.
 
 .. image:: processbuilder1.png	
-    :width: 500px
+    :width: 100px
     :alt: Solidity logo
     :align: center
     
