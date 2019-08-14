@@ -7,7 +7,7 @@ Para acessar os Componentes do Visualforce:
 Entre em Configuração.
 
 .. image:: 1.png
-    :width: 500px
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
