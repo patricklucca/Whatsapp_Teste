@@ -24,7 +24,8 @@ WAMessenger
 ----------------
 O WAMessenger é utilizado na página visualforce WAMessenger (páginas não se encontra no pacote), contendo os seguintes atributos:
 
-Acesso: 	global
+Acesso: global
+
 Atributos:
 
 .. image:: a1.png
