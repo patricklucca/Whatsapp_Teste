@@ -23,7 +23,7 @@ Nele apenas é chamado o método executeTrigger da classe ConversaWhatsappHandle
 Referências:
 
 Objeto Personalizado:
-  Conversa do Whatsapp
+  `Conversa do Whatsapp`_
 
 ConversaWhatsapp_biu
 -----------------------
@@ -49,7 +49,8 @@ Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandle
 Referências:
 
 Objeto Personalizado:
-  Mensagem do Whatsapp
+  `Mensagem do Whatsapp`_
+
 
 
 MensagemWhatsapp_biu
@@ -62,10 +63,10 @@ Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandle
 Referências:
 
 Objeto Personalizado:
-  Mensagem do Whatsapp
+  `Mensagem do Whatsapp`_
 
-
-
+.. _Conversa do Whatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html#conversa-do-whatsapp
+.. _Mensagem do Whatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html#mensagem-do-whatsapp
 .. _ContatoWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#contato-do-whatsapp
 .. _ConversaWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#conversa-do-whatsapp
 .. _ParametroWhatsapp : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Objetos.html?highlight=objeto#parametro-whatsapp
