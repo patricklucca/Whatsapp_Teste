@@ -3,7 +3,7 @@ Para acessar os Eventos de Plataforma:
 Entre em Configuração.
 
 .. image:: evento1.png
-    :width: 500px
+    :width: 200px
     :alt: Solidity logo
     :align: center
     
