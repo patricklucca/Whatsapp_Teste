@@ -11,12 +11,6 @@ O objeto contato do whatsapp é criado para ser a referência de um número de w
     :alt: Solidity logo
     :align: center
     
-    
-Referências:
-
-Classe Apex:
-    WACoreExecutionBefore
-    WAMessenger_ctl
 
 Conversa do Whatsapp
 -----------------------
@@ -29,16 +23,6 @@ O objeto conversa do whatsapp tem um registro para cada conversa de um contato d
     
 Referências:
 
-Classe Apex:
-    ConversaWhatsappHandler
-    WAActionHandler
-    WAActionInterface
-    WAActionInterfaceV2
-    WACoreExecutionAfter
-    WACoreExecutionBefore
-    WAInboxMessenger_ctl
-    WAInboxUser_ctl
-    WAMessenger_ctl
 Acionadores Apex:
     `ConversaWhatsapp_aiu`_
     
@@ -56,18 +40,10 @@ O objeto parâmetro whatsapp é um registro para os clientes entrarem em contato
 
 Referências:
 
-Classe Apex:
-    ParametroWhatsappHandler
-    `SendWhatsappMessage`_
-    WACoreExecutionBefore
-    WAMessenger_ctl
-    WAQrRequest_ctl
-    WAQrView_ctl
 Acionadores Apex:
     `ParametroWhatsapp_aiu`_
 Página Visualforce:
-    WAQrRequest
-    WAQrView
+   `WAQrRequest`_
     
 
 Mensagem do Whatsapp
@@ -82,21 +58,12 @@ O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de 
   
 Referências:
 
-Classe Apex:
-    MensagemWhatsappHandler
-    SendWhatsappMessage
-    WAActionHandler
-    WAActionInterface
-    WACoreExecutionAfter
-    WACoreExecutionBefore
-    WAInboxMessenger_ctl
-    WAMessenger_ctl
 Acionadores Apex:
     `MensagemWhatsapp_aiu`_
     `MensagemWhatsapp_biu`_
 
 
-
+.. _WAQrRequest : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/P%C3%A1ginas%20do%20Visualforce/P%C3%A1ginas%20do%20Visualforce.html#waqrrequest
 .. _SendWhatsappMessage : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/SendWhatsappMessenger.html?highlight=SendWhatsappMessage
 .. _ParametroWhatsapp_aiu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#parametrowhatsapp-aiu
 .. _ConversaWhatsapp_biu : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/Acionadores.html?highlight=acionadores#conversawhatsapp-biu
