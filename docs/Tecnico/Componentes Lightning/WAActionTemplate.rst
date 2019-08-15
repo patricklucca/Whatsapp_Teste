@@ -1,7 +1,6 @@
 O WAActionTemplate é o componente modelo que deve ser utilizado para a implementação dos componentes lightning que aparecerão no messenger. Ele funciona como uma modal, com o layout separado em três partes, cabeçalho, corpo e rodapé.
 Nele temos os seguintes atributos:
 
-Entre em Configuração.
 
 .. image:: WAActionTemplate.png
     :width: 500px
