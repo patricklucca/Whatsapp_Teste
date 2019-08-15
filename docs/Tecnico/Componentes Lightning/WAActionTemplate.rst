@@ -1,4 +1,4 @@
-O WAActionTemplate é o extends obrigatório caso queira usar um componente lightning no metadado Ação do Whatsapp do Tipo Messenger. Ele funciona como uma modal, com o layout separado em três partes, cabeçalho, corpo e rodapé.
+O WAActionTemplate é o componente modelo que deve ser utilizado para a implementação dos componentes lightning que aparecerão no messenger. Ele funciona como uma modal, com o layout separado em três partes, cabeçalho, corpo e rodapé.
 Nele temos os seguintes atributos:
 
 Entre em Configuração.
