@@ -7,7 +7,7 @@ Contato do Whatsapp
 O objeto contato do whatsapp é criado para ser a referência de um número de whatsapp de um cliente.
 
 .. image:: tabelaobjeto3.png
-    :width: 500px
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
@@ -51,7 +51,7 @@ Mensagem do Whatsapp
 O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de uma conversa, tanto do cliente para o parâmetro, quanto parâmetro para cliente.
 
 .. image:: tabelaobjeto4.png
-    :width: 500px
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
