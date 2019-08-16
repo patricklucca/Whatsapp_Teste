@@ -39,28 +39,27 @@ Functions
 ----------
 doInit
 ~~~~~~~~~~
-helper.setContatoWhatsapp(component, helper);
+Atribui à contatoWhatsapp um contato do whatsapp relacionado a conversa
 
 onSelectRelacao
 ~~~~~~~~~~
-helper.setSelecionado(component, event, helper, tipo);
+Verifica se um Contato ou Lead foi selecionado, atribuindo valores à displayLead ou displayContact
 
 closeModal
 ~~~~~~~~~~
-$A.enqueueAction(a);
+Fecha o modal de relação
 
 onChangeRelacionamento
 ~~~~~~~~~~
-component.set("v.relacionamento", event.getSource().get("v.value"));
+Troca o relacionamento de Lead para Contato ou de Contato para Lead
 
 handleSave
 ~~~~~~~~~~
-helper.saveRelacao(component, event, helper);
+Salva o contato ou lead no componente recordViewForm e recarrega a página.
 
 handleLoad
 ~~~~~~~~~~
-component.set('v.showSpinner', false);
-component.set('v.visibleActionIcon', '');
+Mostra o contrato ou lead selecionado previamente
 
 Exemplo
 ~~~~~~~~
