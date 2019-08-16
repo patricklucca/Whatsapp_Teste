@@ -31,9 +31,10 @@ Atributos
 
 Exemplo
 ~~~~~~~~
-<aura:attribute name="exemplo" type="String" default = "texte1">
-<whats:WACoreActionRelacionamento
-                             status = {!v.exemplo}>
+. . codeblock apex
+    <aura:attribute name="exemplo" type="String" default = "texte1">
+    <whats:WACoreActionRelacionamento
+                                   status = {!v.exemplo}>
 
 Functions
 ----------
@@ -63,7 +64,7 @@ Mostra o contrato ou lead selecionado previamente
 
 Exemplo
 ~~~~~~~~
-        <lightning-button label="texte" onclick={doInit}/>
+        ´<lightning-button label="texte" onclick={doInit}/>´
 
 
 
