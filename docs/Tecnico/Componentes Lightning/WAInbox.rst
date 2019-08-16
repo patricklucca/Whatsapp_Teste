@@ -2,107 +2,69 @@
 WAInbox
 ############################
 Atributos
-----------
-status
-~~~~~~~~
-Tipo: String[]
-Obrigatório: false
-
-chatStatus
-~~~~~~~~
-Tipo: String[]
-Obrigatório: false
-
-conversas
-~~~~~~~~
-Tipo: ConversaWhatsapp__c[]
-Obrigatório: false
-
-idTabConversa
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-acoes
-~~~~~~~~
-Tipo: AcaoWhatsapp__mdt[]
-Obrigatório: false
-
-usuario
-~~~~~~~~
-Tipo: User
-Obrigatório: false
-
-numerosAgente
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-sessionId
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-dataHoraDisponibilidade
-~~~~~~~~
-Tipo: DateTime
-Obrigatório: false
-
-statusDisponibilidade
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-timerId
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-timer
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-temAgente
-~~~~~~~~
-Tipo: Boolean
-Obrigatório: false
-
-countNotificacao
-~~~~~~~~
-Tipo: Integer
-Obrigatório: false
-
-labelUtilityBar
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-isHighlighted
-~~~~~~~~
-Tipo: Boolean
-Obrigatório: false
+------------
++------------------------+-----------------------+-------------+
+|  name                  | Tipo                  | Obrigatório |
++========================+=======================+=============+
+| Status                 | String[]              | false       | 
++------------------------+-----------------------+-------------+
+| chatStatus             | String[]              | false       | 
++------------------------+-----------------------+-------------+
+| conversas              | ConversaWhatsapp__c[] | false       | 
++------------------------+-----------------------+-------------+
+| idTabConversa          | String                | false       | 
++------------------------+-----------------------+-------------+
+| acoes                  | AcaoWhatsapp__mdt[]   | false       | 
++------------------------+-----------------------+-------------+
+| usuario                | User                  | false       | 
++------------------------+-----------------------+-------------+
+| numerosAgente          | String                | false       | 
++------------------------+-----------------------+-------------+
+| sessionId              | String                | false       | 
++------------------------+-----------------------+-------------+
+| dataHoraDisponibilidade| DateTime              | false       | 
++------------------------+-----------------------+-------------+
+| statusDisponibilidade  | String                | false       | 
++------------------------+-----------------------+-------------+
+| timerId                | String                | false       | 
++------------------------+-----------------------+-------------+
+| timer                  | String                | false       | 
++------------------------+-----------------------+-------------+
+| temAgente              | Boolean               | false       | 
++------------------------+-----------------------+-------------+
+| countNotificacao       | Integer               | false       | 
++------------------------+-----------------------+-------------+
+| labelUtilityBar        | Integer               | false       | 
++------------------------+-----------------------+-------------+
+| isHighlighted          | Boolean               | false       | 
++------------------------+-----------------------+-------------+
 
 Function
 ----------
 onChangeUserStatus
 ~~~~~~~~
+Não está em uso
 
 doInit
 ~~~~~~~~
+Estabelece a conexão com o host
 
 scriptsLoaded
 ~~~~~~~~
+Inicia uma série de ações do helper, como carregar o usuário, mostrar as conversas vistas
 
 onSelectWAAction
 ~~~~~~~~
+executa o método doExecuteAction
 
 onSelectConversa
 ~~~~~~~~
+Retorna mensagens conversa e organiza-as
 
 handleReceivedMessage
 ~~~~~~~~
+Recebe um JSON com as mensagens enviadas para a conversa
 
 handleClickConversa
 ~~~~~~~~
-
+Atribui valores a variável listConversa e aciona outras functions "loadActions" e "setSeenSelectedConversa"
