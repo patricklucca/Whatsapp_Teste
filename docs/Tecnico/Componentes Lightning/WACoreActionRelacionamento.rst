@@ -41,32 +41,27 @@ Functions
 ----------
 doInit
 ~~~~~~~~~~
-Atribui à contatoWhatsapp um contato do whatsapp relacionado a conversa
+Atribui à contatoWhatsapp um contato do whatsapp relacionado a conversa.
 
 onSelectRelacao
 ~~~~~~~~~~
-Verifica se um Contato ou Lead foi selecionado, atribuindo valores à displayLead ou displayContact
+Verifica se um Contato ou Lead foi selecionado, atribuindo valores à displayLead ou displayContact.
 
 closeModal
 ~~~~~~~~~~
-Fecha o modal de relação
+Fecha o modal de relação.
 
 onChangeRelacionamento
 ~~~~~~~~~~
-Troca o relacionamento de Lead para Contato ou de Contato para Lead
+Troca o relacionamento de Lead para Contato ou de Contato para Lead.
 
 handleSave
 ~~~~~~~~~~
-Salva o contato ou lead no componente recordViewForm e recarrega a página.
+Salva a relação da conversa com Contato ou Lead e recarrega a página.
 
 handleLoad
 ~~~~~~~~~~
-Mostra o contrato ou lead selecionado previamente
-
-Exemplo
-~~~~~~~~
-        ´<lightning-button label="texte" onclick={doInit}/>´
-
+Carrega os dados dos componentes da página.
 
 
 
