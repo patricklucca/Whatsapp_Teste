@@ -31,9 +31,9 @@ Atributos
 
 Exemplo
 ~~~~~~~~
-. . codeblock apex
-    <aura:attribute name="exemplo" type="String" default = "texte1">
-    <whats:WACoreActionRelacionamento
+   .. code-block:: apex
+      <aura:attribute name="exemplo" type="String" default = "texte1">
+      <whats:WACoreActionRelacionamento
                                    status = {!v.exemplo}>
 
 Functions
