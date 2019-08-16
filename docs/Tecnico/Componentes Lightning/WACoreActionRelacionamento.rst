@@ -3,60 +3,31 @@ WACoreActionRelacionamento
 ############################
 Atributos
 ----------
-status
-~~~~~~~~
-Tipo: String[]
-Obrigatório: false
-
-selItem
-~~~~~~~~
-Tipo: object
-Obrigatório: false
-
-tipoRelacao
-~~~~~~~~
-Tipo: Map[]
-Obrigatório: false
-
-selecionado
-~~~~~~~~
-Tipo: Map
-Obrigatório: false
-
-contatoWhatsapp
-~~~~~~~~
-Tipo: ContatoWhatsapp__c
-Obrigatório: false
-
-acaoMessenger
-~~~~~~~~
-Tipo: String[]
-Obrigatório: false
-
-relacionamento
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-displayLead
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-displayContact
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-visibleActionIcon
-~~~~~~~~
-Tipo: String
-Obrigatório: false
-
-showSpinner
-~~~~~~~~
-Tipo: Boolean
-Obrigatório: false
++------------------------+------------+----------+-------------+
+|  name                  | Tipo                  | Obrigatório |
++========================+============+==========+=============+
+| Status                 | String[]              | false       | 
++------------------------+------------+----------+-------------+
+| selItem                | object                | false       | 
++------------------------+------------+------------------------+
+| tipoRelacao            | Map[]                 | false       | 
++------------------------+------------+------------------------+
+| selecionado            | Map                   | false       | 
++------------------------+------------+------------------------+
+| contatoWhatsapp        | ContatoWhatsapp__c    | false       | 
++------------------------+-----------------------+-------------+
+| acaoMessenger          | String[]              | false       | 
++------------------------+------------+------------------------+
+| relacionamento         | String[]              | false       | 
++------------------------+------------+------------------------+
+| displayLead            | String[]              | false       | 
++------------------------+------------+------------------------+
+| displayContact         | String[]              | false       | 
++------------------------+------------+------------------------+
+| visibleActionIcon      | String[]              | false       | 
++------------------------+------------+------------------------+
+| showSpinner     n      | Boolean               | false       | 
++------------------------+------------+------------------------+
 
 Exemplo
 ~~~~~~~~
