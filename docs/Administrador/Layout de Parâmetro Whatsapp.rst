@@ -12,7 +12,7 @@ O layout padrão do Parâmetro Whatsapp apresenta os campos e botões abaixo aba
     :alt: Solidity logo
     :align: center
     
-Campos com um cadeado são campos de apenas leitura. Campos marcados com asterisco são
+Campos com um cadeado são campos de apenas leitura. Campos marcados com asterisco são requerido.
 Definição dos campos:
   Descrição: a descrição seria o nome do Parâmetro Whatsapp.
   Número: número registrado no whatsapp a máscara seria DDD+Número. Ex.: 13999887766.
