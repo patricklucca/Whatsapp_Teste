@@ -45,13 +45,36 @@ doSendMessage
 ~~~~~~~~~~
 Apresenta a mensagem no chat
 
-doSendMessage
+handleReceivedMessage
 ~~~~~~~~~~
 Apresenta a mensagem no chat
 
+onChangeChatContent
+~~~~~~~~~~
+Apresenta a mensagem no chat
 
+handleClickConversa
+~~~~~~~~~~
+Apresenta a mensagem no chat
 
+onScrollChatContent
+~~~~~~~~~~
+Apresenta a mensagem no chat
 
+checkBreakline
+~~~~~~~~~~
+Apresenta a mensagem no chat
+
+verifyToSend
+~~~~~~~~~~
+Apresenta a mensagem no chat
+
+checkInputData
+~~~~~~~~~~
+Apresenta a mensagem no chat
+
+onSelectWAAction
+~~~~~~~~~~
 
 
 
