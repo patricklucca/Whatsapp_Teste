@@ -26,8 +26,44 @@ Atributos
 +------------------------+-----------------------+-------------+
 | relacaoNome            | String                | false       | 
 +------------------------+-----------------------+-------------+
+
 Functions
 ----------
 doInit
 ~~~~~~~~~~
-Atribui à contatoWhatsapp um contato do whatsapp relacionado a conversa.
+NADA
+
+scriptsLoaded
+~~~~~~~~~~
+Retorna informações da conversa do whatsapp e é responsável por definir o intervalo de atualização das mensagens
+
+doReload
+~~~~~~~~~~
+Checa a conexão com o server e recarrega o conteúdo do chat
+
+doSendMessage
+~~~~~~~~~~
+Apresenta a mensagem no chat
+
+doSendMessage
+~~~~~~~~~~
+Apresenta a mensagem no chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
