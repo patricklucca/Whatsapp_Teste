@@ -12,6 +12,7 @@ Retorno
     Retorna o body da request e setta o endpoint
 Exemplo
        .. code-block:: apex
+      
       SendWhatsappMessage.doEnviarMensagem('551399999999', '5513997733761', '', 'teste', 'a011U00000Occ0WQAR');
    
 doEnviarMensagens()
@@ -24,6 +25,7 @@ Assinatura
     public statis void doEnviarMensagens(Set<Id> pSetMensagem)
 Exemplo
        .. code-block:: apex
+       
        Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
        SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
        
@@ -37,6 +39,7 @@ Assinatura
     public static void doEnviarContentMedia(String pOrigem, String pDestino, String pChave, String pContentMedia, String pContentSize)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doEnviarContentMedia('551399999999', '5513997733761', '', 'teste', '60000');
        
 doRegistrarNumero()
@@ -49,6 +52,7 @@ Assinatura
     public static void doRegistrarNumero(String pDdi, String pNumero, String pOperadora, String pMetodoEnvio)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doRegistrarNumero('13', '999999999', 'operadora', '');
 
 doAutenticarNumero()
@@ -61,6 +65,7 @@ Assinatura
     public static void doAutenticarNumero(String pDdi, String pNumero, String pCodigo)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doAutenticarNumero('13', '55999999999', '');
              
 doRegistrarNovoNumero()
@@ -73,6 +78,7 @@ Assinatura
     public static void doRegistrarNovoNumero(String oldNumero, String numero, String operadora, String callbackLogin, String callbackPassword, String msgIncompatibilidade, Boolean isAtivo)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doRegistrarNovoNumero('55999999999', '55988888888', 'operadora', 'xxxx_xx@xxxx.com', 'xxx51465xx', '', '1');
     
 doVerificaNovoNumero()
@@ -85,6 +91,7 @@ Assinatura
     public static void doVerificaNovoNumero()
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doVerificaNovoNumero();
 
 
@@ -98,12 +105,13 @@ Assinatura
     public static void doRegitrarNovoGrupo()
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.doRegitrarNovoGrupo();
 
 
 getQr()
 -----------------------
-Esta método é chamado pela método loadQr da classe `WAQrView`_ para montar a requisição ao servidor através da chamada:
+Esta método é chamado pela método loadQr da classe WAQrView para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
 Retorno
@@ -112,6 +120,7 @@ Assinatura
     public static String getQr(String pNumero)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.getQr('55999999999');
 
 
@@ -119,7 +128,7 @@ Exemplo
              
 requestQr()
 -----------------------
-Esta método é chamado pelo método requestQr da classe `WAQrRequest`_ para montar a requisição ao servidor através da chamada:
+Esta método é chamado pelo método requestQr da classe WAQrRequest para montar a requisição ao servidor através da chamada:
     ``String response = SendWhatsappMessage.getQr(param.Celular__c);``
 
 Retorno
@@ -128,6 +137,7 @@ Assinatura
     public static String requestQr(String pNumero)
 Exemplo
        .. code-block:: apex
+       
        SendWhatsappMessage.requestQr('55999999999');
 
 
@@ -143,4 +153,5 @@ Assinatura
     public class SendMessageQueue implements Queueable, Database.AllowsCallouts
 Exemplo
       .. code-block:: apex
+      
       SendWhatsappMessage.SendMessageQueue('55999999999');
