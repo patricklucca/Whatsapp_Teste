@@ -59,7 +59,7 @@ NADA
 
 onScrollChatContent
 ~~~~~~~~~~
-
+NADA
 
 checkBreakline
 ~~~~~~~~~~
@@ -75,8 +75,7 @@ Retorna a data de envio da mensagem
 
 onSelectWAAction
 ~~~~~~~~~~
-
-
+Responsável pela chamada das functions que carregam os conteúdos da conversa, contato whatsapp e parâmetro, abre o modal ou executa alguma ação
 
 
 
