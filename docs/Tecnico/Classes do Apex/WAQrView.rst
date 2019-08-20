@@ -1,4 +1,6 @@
+#############
 WAQrView_ctl
+#############
 
 param
   Get e Set da variável pública do tipo ParametroWahtsapp__c.
