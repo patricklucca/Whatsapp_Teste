@@ -1,5 +1,5 @@
 ################
-WAMessenger_ctl
+WAMessenger
 ################
 
 conversaWhatsappId
