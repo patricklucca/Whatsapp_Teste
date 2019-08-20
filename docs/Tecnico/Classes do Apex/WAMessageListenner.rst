@@ -1,5 +1,5 @@
 ######################
-WAMessageListenner_ctl
+WAMessageListenner
 ######################
 
 pushTopicId
