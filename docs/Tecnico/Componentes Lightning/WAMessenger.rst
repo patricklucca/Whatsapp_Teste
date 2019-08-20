@@ -47,31 +47,31 @@ Apresenta a mensagem no chat
 
 handleReceivedMessage
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+No recebimento de novas mensagens, carrega elas em tela
 
 onChangeChatContent
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+Na mudança de conteúdo do chat desce o scroll da conversa pra baixo
 
 handleClickConversa
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+NADA
 
 onScrollChatContent
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+
 
 checkBreakline
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+Pula um parágrafo caso o shift esteja apertado ao enviar a mensagem
 
 verifyToSend
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+Verifica se o shift não está apertado para mandar a mensagem, chamando a function de enviar mensagens
 
 checkInputData
 ~~~~~~~~~~
-Apresenta a mensagem no chat
+Retorna a data de envio da mensagem
 
 onSelectWAAction
 ~~~~~~~~~~
