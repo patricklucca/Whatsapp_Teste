@@ -4,7 +4,7 @@ Setup
 
 O objetivo deste documento é apontar os requisitos necessários e o passo-a-passo para a aplicação da funcionalidade e sua configuração em uma nova organização.
 
-REGISTRO DE DOMÍNIO PARA A ORGANIZACAO
+Registro de Domínio para a Organização
 -----------------------
 
 Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
@@ -24,7 +24,7 @@ Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e 
 Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote
 
 
-INSTALAÇÃO DO PACOTE GERENCIADO
+Instalação do Pacote Gerenciado
 -----------------------
 	
 
@@ -53,7 +53,7 @@ Depois da confirmação das opções anteriores o download começará normalment
     :alt: Solidity logo
     :align: center
         
-CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
+Configuração de Endpoints do Servidor
 -----------------------
 
 Após a configuração do domínio e a instalação do pacote WhatsappCore é necessário entrar em contato com a INPULSO para utilização do pacote. Entre em contato conosco.
@@ -97,7 +97,7 @@ Após inserir a url, clique em Salvar.
 
 
     
-CONFIGURACAO DE PERIODICIDADE DE ATUALIZACAO DO INBOX
+Configuracao de Preiodicidade de Atualizacao do Inbox
 -----------------------
 	
 A periodicidade de atualização das mensagens é de 1 segundo por padrão, porém é possível modificar.
