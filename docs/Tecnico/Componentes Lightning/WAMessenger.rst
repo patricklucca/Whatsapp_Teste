@@ -35,11 +35,11 @@ NADA
 
 scriptsLoaded
 ~~~~~~~~~~
-Retorna informações da conversa do whatsapp e é responsável por definir o intervalo de atualização das mensagens
+Define se o scroll aparecerá ou não e carrega os dados da conversa
 
 doReload
 ~~~~~~~~~~
-Checa a conexão com o server e recarrega o conteúdo do chat
+Recarrega o conteúdo do chat
 
 doSendMessage
 ~~~~~~~~~~
@@ -75,7 +75,7 @@ Retorna a data de envio da mensagem
 
 onSelectWAAction
 ~~~~~~~~~~
-Responsável pela chamada das functions que carregam os conteúdos da conversa, contato whatsapp e parâmetro, abre o modal ou executa alguma ação
+Executa uma ação correspondente ao metadado selecionado ou abre o modal caso utilize um componente
 
 
 
