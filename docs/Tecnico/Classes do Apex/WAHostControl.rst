@@ -1,5 +1,5 @@
 #################
-WAHostControl_ctl
+WAHostControl
 #################
 
 getHost()
