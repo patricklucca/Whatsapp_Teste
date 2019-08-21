@@ -4,8 +4,8 @@ Inbox do Whatsapp
 
 O Inbox do Whatsapp é acessado através da barra superior. Acessando-a é possível realizar as seguintes ações:
 
-SELECIONAR CONVERSA
------------------------
+Selecionar Conversa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: Inbox1.png
     :width: 500px
@@ -14,8 +14,8 @@ SELECIONAR CONVERSA
     
 Através da barra lateral esquerda pode-se pode-se selecionar qual conversa abrir. Através da conversa é possível ler as mensagens enviadas e responder ao cliente.
 
-VINCULAR/DESVINCULAR CONVERSA
------------------------
+Vincular/Desvincular Conversa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dentro da conversa é possível vinculá-la a um lead ou uma conta através do botão apresentado no canto superior direito da mesma.
 
