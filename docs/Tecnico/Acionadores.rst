@@ -8,11 +8,10 @@ ParametroWhatsapp_aiu
 O ParametroWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Parâmetro Whatsapp.
 
 Nele apenas é chamado o método executeTrigger da classe ParametroWhatsappHandler.
-
-Referências:
-
-Objeto Personalizado:
-  `ParametroWhatsapp`_
+.. Importante::
+   Referências:
+    Objeto Personalizado:
+    `ParametroWhatsapp`_
 
 ConversaWhatsapp_aiu
 -----------------------
