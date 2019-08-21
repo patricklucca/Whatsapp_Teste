@@ -7,4 +7,4 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
    :maxdepth: 2
    :caption: Classes
       
-   Classes do Apex
+   Classes do Apex.rst
