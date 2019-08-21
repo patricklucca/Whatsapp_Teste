@@ -7,6 +7,7 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
     :maxdepth: 2
     :caption: Tecnico
 
+    Tecnico/Indice_Tecnico
     Tecnico/Classes do Apex/AcaoMessenger
     Tecnico/Classes do Apex/ChatContent
     Tecnico/Classes do Apex/ConversaWhatsappHandler
