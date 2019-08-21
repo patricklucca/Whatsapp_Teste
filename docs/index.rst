@@ -15,7 +15,7 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
 
 .. toctree::
    :maxdepth: 2
-   :caption: Whatsapp Core
+   :caption: Configuração
    
    
    Setup
@@ -27,7 +27,6 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     Funcional/Inbox do Whatsapp
     Funcional/Cadastro_Parametro
    
-   Administrador
    
 .. toctree::
     :maxdepth: 2
