@@ -4,6 +4,13 @@ Indice Tecnico
 Indice do documento técnico, voltado para maior aprofundamento e conhecimento da funcionalidade.
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Configuração
+   
+   
+   Setup
+   
+.. toctree::
     :maxdepth: 2
     :caption: Tecnico
 
