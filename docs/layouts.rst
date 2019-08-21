@@ -1,12 +1,12 @@
 #################
-Classes do Apex
+Layouts
 #################
 
-Classes do apex constituintes da aplicação Whatsapp Core
+Layouts das páginas do apex constituintes da aplicação Whatsapp Core
 
 .. toctree::
    :maxdepth: 2
-   :caption: Classes do Apex
+   :caption: Layouts do Apex
    
    
 
