@@ -40,7 +40,7 @@ Ao seleciona-lo um painel aparecerá na conversa, onde será possível seleciona
 A desviculação da conversa é realizada através deste painel em uma conversa que já esteja vinculada. Para desvincular deve-se clicar no X onde está o nome da Conta/Lead e salvar, assim voltando para como seria no início da conversa
 
 .. figure:: Inbox5.png
-    :width: 300px
+    :width: 450px
     :alt: Solidity logo
     :align: center
     
