@@ -131,8 +131,9 @@ Assinatura
     public static String getQr(String pNumero)
 Exemplo
        
-       .. code-block:: apex
-       SendWhatsappMessage.getQr('55999999999');
+   .. code-block:: apex
+       
+      SendWhatsappMessage.getQr('55999999999');
 
 
 .. _WAQrView : 
