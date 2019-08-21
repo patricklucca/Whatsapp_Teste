@@ -25,7 +25,7 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     :caption: Funcional
     
     Funcional/Cadastro_Parametro
-    Funcional/Inbox_do_Whatsapp
+    Funcional/Inbox do Whatsapp
     Funcional/Configuração de Endpoints do Servidor
     Funcional/Configuração de periodicidade de atualização do Inbox
 
