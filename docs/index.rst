@@ -7,7 +7,6 @@ Whatsapp Core
 ========
 .. toctree::
    :maxdepth: 2
-   :hidden:
    :caption: Whatsapp Core
    
    
@@ -15,7 +14,6 @@ Whatsapp Core
    
 .. toctree::
     :maxdepth: 2
-    :numbered:
     :caption: Funcional
     
     Funcional/Inbox_do_Whatsapp
