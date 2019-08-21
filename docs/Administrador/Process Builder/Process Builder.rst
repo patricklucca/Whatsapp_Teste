@@ -7,7 +7,7 @@ Para acessar o Process Builder:
 Entre em Configuração.
 
 .. figure:: processbuilder1.png	
-    :width: 200px
+    :width: 325px
     :alt: Solidity logo
     :align: center
     
@@ -18,7 +18,7 @@ Escreva process na busca rápida e clique em Process Builder.
 Nele constará o seguinte fluxo ligado ao pacote
 
 .. figure:: processbuilder2.png	
-    :width: 650px
+    :width: 600px
     :alt: Solidity logo
     :align: center
     
