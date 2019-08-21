@@ -97,7 +97,7 @@ Após inserir a url, clique em Salvar.
 
 
     
-Configuracao de Preiodicidade de Atualizacao do Inbox
+Configuracao de Periodicidade de Atualizacao do Inbox
 -----------------------
 	
 A periodicidade de atualização das mensagens é de 1 segundo por padrão, porém é possível modificar.
@@ -121,8 +121,8 @@ Aqui temos dois tempos:
     :alt: Solidity logo
     :align: center
 
-Inbox do Whatsapp: é o tempo em milissegundos da atualização do Inbox do Whatsapp do APP Wahtsapp.
-Messenger do Whatsapp: é o tempo em milissegundos da atualização do componente Messenger para Lead/Contato (Ainda em implementação).
+.. Note:: Inbox do Whatsapp: é o tempo em milissegundos da atualização do Inbox do Whatsapp do APP Wahtsapp.
+   Messenger do Whatsapp: é o tempo em milissegundos da atualização do componente Messenger para Lead/Contato (Ainda em implementação).
 
 
 
