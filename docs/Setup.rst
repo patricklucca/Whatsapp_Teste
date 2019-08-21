@@ -10,16 +10,20 @@ Registro de Domínio para a Organização
 Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
 
 .. figure:: instalacao4.png
-    :width: 400px
+    :width: 250px
     :alt: Solidity logo
     :align: center
+    
+    Barra de pesquisa das configurações
 
 Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
 
 .. figure:: instalacao6.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Registro de domínio
 
 Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote
 
@@ -35,23 +39,29 @@ O download do pacote para a sua organização deve ser realizado através do lin
 O login na sua organização será requerido, e após o a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
 
 .. figure:: instalacao1.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Seleção de instalação para todos os perfis
 
 Logo após a confirmação uma notificação aparecerá, sendo necessária a confirmação do seguinte item:
    
 .. figure:: instalacao2.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Garantia de acesso
     
 Depois da confirmação das opções anteriores o download começará normalmente, demorando entre 1 a 3 minutos. Após a confirmação do encerramento do download a apliacação já estará visível para o cliente através dos aplicativos do SalesForce.
 
 .. figure:: instalacao3.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Painel de aplicações
         
 Configuração de Endpoints do Servidor
 -----------------------
@@ -65,9 +75,11 @@ Parâmetro Global
 Entre na Configuração
 
 .. figure:: instalacao7.png
-    :width: 400px
+    :width: 350px
     :alt: Solidity logo
     :align: center
+    
+    Seleção de Configurações
     
 Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
 Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
@@ -75,9 +87,11 @@ Clique em Editar do lado esquerdo do Instância do Servidor Whatsapp.
 Adicionar a url fornecida no campo Attribute 1 como no exemplo a seguir:
 
 .. figure:: instalacao10.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Campo Attribute 1 no painel
     
 Após inserir a url, clique em Salvar.
 
@@ -89,9 +103,11 @@ Clique em Editar do lado esquerdo do WhatsappWeb.
 Adicionar a url fornecida no campo URL do site remoto como no exemplo a seguir:
 
 .. figure:: instalacao9.png
-    :width: 400px
+    :width: 460px
     :alt: Solidity logo
     :align: center
+    
+    Campo URL do site remoto
     
 Após inserir a url, clique em Salvar.
 
@@ -107,9 +123,11 @@ Para alterar o tempo de atualização:
 Entre na Configuração
 
 .. figure:: instalacao7.png
-    :width: 400px
+    :width: 350px
     :alt: Solidity logo
     :align: center
+    
+    Seleção de Configurações
 
 Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
 Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização.
@@ -117,9 +135,11 @@ Clique em Editar do lado esquerdo do Registro único.
 Aqui temos dois tempos:
 
 .. figure:: instalacao8.png
-    :width: 400px
+    :width: 450px
     :alt: Solidity logo
     :align: center
+    
+    Painel de Configuração da periodicidade
 
 .. Note:: Inbox do Whatsapp: é o tempo em milissegundos da atualização do Inbox do Whatsapp do APP Wahtsapp.
    Messenger do Whatsapp: é o tempo em milissegundos da atualização do componente Messenger para Lead/Contato (Ainda em implementação).
