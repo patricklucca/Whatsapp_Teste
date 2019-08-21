@@ -24,6 +24,8 @@ Usuário Salesforce: seu usuário de login no salesforce.
 Senha Salesforce: sua senha mais a chave de segurança. 
 Clique em Salvar.
 
-    Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta
+.. Hint:: Quando aparecer erro na integração no campo Status o usuário ou a senha está incorreta.
+          Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização
     
-    Quando tiver os dados certo e o Status para Registrado, será necessário entrar em contato conosco para a ativação da organização
+    
+    
