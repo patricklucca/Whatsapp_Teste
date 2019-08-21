@@ -16,7 +16,7 @@ Escreva process na busca rápida e clique em Process Builder.
 Nele constará o seguinte fluxo ligado ao pacote
 
 .. image:: processbuilder2.png	
-    :width: 500px
+    :width: 600px
     :alt: Solidity logo
     :align: center
 
