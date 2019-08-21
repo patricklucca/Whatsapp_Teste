@@ -16,7 +16,7 @@ Escreva evento na busca rápida e clique em Eventos de plataforma.
 Nele constará os seguintes eventos utilizados pelo pacote.
 
 .. image:: evento2.png
-    :width: 450px
+    :width: 470px
     :alt: Solidity logo
     :align: center
     
@@ -27,3 +27,7 @@ O evento Whatsapp Chat é chamado após o insert ou update de uma Mensagem do Wh
 Whatsapp Inbox
 ~~~~~~~~~~~~~~~~
 O evento Whatsapp Inbox é chamado após a mudança de status da Conversa do Whatsapp, sendo é responsável por atualizar todo o Inbox do Whatsapp.
+
+.. Note:: Para maior aprofundamento ver também:
+   
+   
