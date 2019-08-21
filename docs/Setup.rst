@@ -1,6 +1,13 @@
 #################
 Setup
 #################
+.. toctree::
+   :maxdepth: 2
+   :caption: Configuração
+   
+   
+   Setup
+   
 
 O objetivo deste documento é apontar os requisitos necessários e o passo-a-passo para a aplicação da funcionalidade e sua configuração em uma nova organização.
 
