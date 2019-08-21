@@ -42,5 +42,6 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     :maxdepth: 2
     :caption: Tecnico
   
-    Tecnico/Indice_Tecnico
+    Tecnico/Classes do Apex/
+    Tecnico/Classes do Apex
     
