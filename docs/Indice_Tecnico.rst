@@ -8,3 +8,5 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
    :caption: Classes
       
    Classes do Apex.rst
+   Componentes Lightning.rst
+   layouts.rst
