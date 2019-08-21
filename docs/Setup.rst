@@ -19,7 +19,7 @@ Para que o pacote possa ser baixado primariamente o usuário deve possuir uma or
 Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
 
 .. figure:: instalacao6.png
-    :width: 500px
+    :width: 620px
     :alt: Solidity logo
     :align: center
     
@@ -39,7 +39,7 @@ O download do pacote para a sua organização deve ser realizado através do lin
 O login na sua organização será requerido, e após o a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
 
 .. figure:: instalacao1.png
-    :width: 500px
+    :width: 620px
     :alt: Solidity logo
     :align: center
     
@@ -48,7 +48,7 @@ O login na sua organização será requerido, e após o a realização será aut
 Logo após a confirmação uma notificação aparecerá, sendo necessária a confirmação do seguinte item:
    
 .. figure:: instalacao2.png
-    :width: 500px
+    :width: 620px
     :alt: Solidity logo
     :align: center
     
@@ -57,7 +57,7 @@ Logo após a confirmação uma notificação aparecerá, sendo necessária a con
 Depois da confirmação das opções anteriores o download começará normalmente, demorando entre 1 a 3 minutos. Após a confirmação do encerramento do download a apliacação já estará visível para o cliente através dos aplicativos do SalesForce.
 
 .. figure:: instalacao3.png
-    :width: 525px
+    :width: 620px
     :alt: Solidity logo
     :align: center
     
