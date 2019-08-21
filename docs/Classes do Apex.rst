@@ -1,3 +1,10 @@
+
+#################
+Classes do Apex
+#################
+
+Classes do apex constituintes da aplicação Whatsapp Core
+
 .. toctree::
    :maxdepth: 2
    :caption: Classes do Apex
