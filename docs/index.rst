@@ -41,6 +41,6 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
 .. toctree::
     :maxdepth: 2
     :caption: Tecnico
-
-    Tecnico/Indice Tecnico
+  
+    Tecnico/Indice_Tecnico
     
