@@ -20,12 +20,11 @@ O objeto conversa do whatsapp tem um registro para cada conversa de um contato d
     :width: 400px
     :alt: Solidity logo
     :align: center
-    
-Referências:
 
-Acionadores Apex:
+.. Important::
+   Referências:
+    Acionadores Apex:
     `ConversaWhatsapp_aiu`_
-    
     `ConversaWhatsapp_biu`_
 
 
@@ -38,12 +37,12 @@ O objeto parâmetro whatsapp é um registro para os clientes entrarem em contato
     :alt: Solidity logo
     :align: center
 
-Referências:
-
-Acionadores Apex:
+.. Important::
+   Referências:
+    Acionadores Apex:
     `ParametroWhatsapp_aiu`_
-Página Visualforce:
-   `WAQrRequest`_
+    Página Visualforce:
+    `WAQrRequest`_
     
 
 Mensagem do Whatsapp
@@ -56,9 +55,9 @@ O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de 
     :align: center
     
   
-Referências:
-
-Acionadores Apex:
+.. Important::
+   Referências:
+    Acionadores Apex:
     `MensagemWhatsapp_aiu`_
     `MensagemWhatsapp_biu`_
 
