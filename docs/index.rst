@@ -38,5 +38,9 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     Tecnico/Páginas do Visualforce/Páginas do Visualforce
     Tecnico/Acionadores
 
-
+.. toctree::
+    :maxdepth: 2
+    :caption: Tecnico
+  
+    Tecnico/Indice_Tecnico
     
