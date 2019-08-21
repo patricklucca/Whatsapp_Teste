@@ -35,5 +35,6 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     Administrador/Process Builder/Process Builder
     Administrador/Eventos de Plataforma/Eventos de Plataforma
     Tecnico/Metadados/Metadados
+    Tecnico/Páginas do Visualforce/Páginas do Visualforce
 
 
