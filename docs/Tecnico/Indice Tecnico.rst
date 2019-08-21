@@ -8,7 +8,6 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
     :maxdepth: 2
     :caption: Tecnico
 
-    Tecnico/Páginas do Visualforce/Páginas do Visualforce
     Tecnico/Classes do Apex/AcaoMessenger
     Tecnico/Classes do Apex/ChatContent
     Tecnico/Classes do Apex/ConversaWhatsappHandler
@@ -31,4 +30,3 @@ Indice do documento técnico, voltado para maior aprofundamento e conhecimento d
     Tecnico/Classes do Apex/WAMessenger
     Tecnico/Classes do Apex/WAQrRequest
     Tecnico/Classes do Apex/WAQrView
-
