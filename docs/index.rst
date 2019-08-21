@@ -31,7 +31,7 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
    
 .. toctree::
     :maxdepth: 2
-    :caption: Funcional
+    :caption: Administrativo
 
     Administrador/Process Builder/Process Builder
 
