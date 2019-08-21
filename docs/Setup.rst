@@ -9,15 +9,15 @@ Registro de Domínio para a Organização
 
 Para que o pacote possa ser baixado primariamente o usuário deve possuir uma organização no SalesForce que possua o domínio cadastrado. Para cadastrar um domínio o mesmo deve, através da barra de pesquisa acessada pelo botão Configuração, procurar por "Meu Domínio"
 
-.. image:: instalacao4.png
-    :width: 200px
+.. figure:: instalacao4.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
 
 Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e verificar a validade do mesmo.
 
-.. image:: instalacao6.png
-    :width: 200px
+.. figure:: instalacao6.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
 
@@ -34,22 +34,22 @@ O download do pacote para a sua organização deve ser realizado através do lin
          
 O login na sua organização será requerido, e após o a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
 
-.. image:: instalacao1.png
-    :width: 200px
+.. figure:: instalacao1.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
 
 Logo após a confirmação uma notificação aparecerá, sendo necessária a confirmação do seguinte item:
    
-.. image:: instalacao2.png
-    :width: 200px
+.. figure:: instalacao2.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
 Depois da confirmação das opções anteriores o download começará normalmente, demorando entre 1 a 3 minutos. Após a confirmação do encerramento do download a apliacação já estará visível para o cliente através dos aplicativos do SalesForce.
 
-.. image:: instalacao3.png
-    :width: 200px
+.. figure:: instalacao3.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
         
@@ -64,8 +64,8 @@ Parâmetro Global
 
 Entre na Configuração
 
-.. image:: instalacao7.png
-    :width: 200px
+.. figure:: instalacao7.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
@@ -74,8 +74,8 @@ Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
 Clique em Editar do lado esquerdo do Instância do Servidor Whatsapp.
 Adicionar a url fornecida no campo Attribute 1 como no exemplo a seguir:
 
-.. image:: instalacao10.png
-    :width: 200px
+.. figure:: instalacao10.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
@@ -88,8 +88,8 @@ Escreva site na busca rápida e clique em Configurações do site remoto.
 Clique em Editar do lado esquerdo do WhatsappWeb.
 Adicionar a url fornecida no campo URL do site remoto como no exemplo a seguir:
 
-.. image:: instalacao9.png
-    :width: 200px
+.. figure:: instalacao9.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
     
@@ -106,8 +106,8 @@ Para alterar o tempo de atualização:
 
 Entre na Configuração
 
-.. image:: instalacao7.png
-    :width: 200px
+.. figure:: instalacao7.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
 
@@ -116,8 +116,8 @@ Clique em Gerenciar registros do lado esquerdo do Periodicidade de Atualização
 Clique em Editar do lado esquerdo do Registro único.
 Aqui temos dois tempos:
 
-.. image:: instalacao8.png
-    :width: 200px
+.. figure:: instalacao8.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
 
