@@ -1,6 +1,5 @@
-##################
 Indice Tecnico
-##################
+================
 
 Indice do documento técnico, voltado para maior aprofundamento e conhecimento da funcionalidade.
 
