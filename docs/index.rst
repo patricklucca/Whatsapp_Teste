@@ -33,6 +33,7 @@ Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste docu
     :caption: Administrativo
 
     Administrador/Process Builder/Process Builder
+    Administrador/Eventos de Plataforma
 
 
 
