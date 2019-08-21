@@ -45,6 +45,7 @@ MensagemWhatsapp_aiu
 O MensagemWhatsapp_aiu é um acionador executado depois da inserção e depois da atualização do objeto Mensagem do Whatsapp.
 
 Nele apenas é chamado o método executeTrigger da classe MensagemWhatsappHandler.
+
 .. Important::
    Referências:
     Objeto Personalizado:
