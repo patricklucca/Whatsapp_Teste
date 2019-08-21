@@ -24,8 +24,8 @@ O objeto conversa do whatsapp tem um registro para cada conversa de um contato d
 .. Important::
    Referências:
     Acionadores Apex:
-    `ConversaWhatsapp_aiu`_
-    `ConversaWhatsapp_biu`_
+      -`ConversaWhatsapp_aiu`_
+      -`ConversaWhatsapp_biu`_
 
 
 Parâmetro Whatsapp
@@ -40,9 +40,9 @@ O objeto parâmetro whatsapp é um registro para os clientes entrarem em contato
 .. Important::
    Referências:
     Acionadores Apex:
-    `ParametroWhatsapp_aiu`_
+      -`ParametroWhatsapp_aiu`_
     Página Visualforce:
-    `WAQrRequest`_
+      -`WAQrRequest`_
     
 
 Mensagem do Whatsapp
@@ -58,8 +58,8 @@ O objeto mensagem do whatsapp contém registrado todas as mensagens enviadas de 
 .. Important::
    Referências:
     Acionadores Apex:
-    `MensagemWhatsapp_aiu`_
-    `MensagemWhatsapp_biu`_
+      -`MensagemWhatsapp_aiu`_
+      -`MensagemWhatsapp_biu`_
 
 
 .. _WAQrRequest : https://whatsapp-teste.readthedocs.io/en/latest/Tecnico/P%C3%A1ginas%20do%20Visualforce/P%C3%A1ginas%20do%20Visualforce.html#waqrrequest
