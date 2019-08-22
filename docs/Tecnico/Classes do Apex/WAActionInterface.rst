@@ -3,6 +3,7 @@ WAActionInterface
 #################
 
 onInicioConversa()
+~~~~~~~~~~~~~~~~~~~~
   Método para ser executado no início de uma conversa nas classes que a implementam.
 Assinatura
   void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
@@ -19,6 +20,7 @@ Exemplo
       new WACoreExecutionAfter().onInicioConversa(lstChanged);
       
 onFimConversa()
+~~~~~~~~~~~~~~~~~~~~
   Método para ser executado no fim de uma conversa nas classes que a implementam.
 Assinatura
   void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
@@ -34,7 +36,8 @@ Exemplo
       List<MensagemWhatsapp__c> lstChangedMensagem = mapResultMensagem.values().deepClone(true, true, true);
       new WACoreExecutionAfter().onFimConversa(lstChanged);
         
-onEntradaMensagem(pListMensagemWhatsapp)
+onEntradaMensagem()
+~~~~~~~~~~~~~~~~~~~~
   Método para ser executado ao chegar uma nova mensagem nas classes que a implementam.
 Assinatura
   void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
