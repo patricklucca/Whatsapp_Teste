@@ -11,6 +11,7 @@ O layout padrão do Conversa do Whatsapp apresenta os campos e botões abaixo ab
     :align: center
     
 Campos com um cadeado são campos de apenas leitura.
+
 .. Important::
    - Definição dos campos:
     - Código da Conversa: Campo de nome da mensagem, um número gerado automaticamente através de uma mascara
