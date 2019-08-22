@@ -3,6 +3,7 @@ WACoreExecutionBefore
 #####################
 
 onInicioConversa()
+~~~~~~~~~~~~~~~~~~~~
   Implementação da WAActionInterface, não está sendo utilizado.
 Assinatura
   public void onInicioConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
@@ -22,6 +23,7 @@ Exemplo
       new WACoreExecutionBefore().onInicioConversa(lstChanged);
 
 onFimConversa()
+~~~~~~~~~~~~~~~~~~~~
   Implementação da WAActionInterface, não está sendo utilizado.
 Assinatura
   public void onFimConversa(List<ConversaWhatsapp__c> pListConversaWhatsapp)
@@ -41,6 +43,7 @@ Exemplo
       new WACoreExecutionBefore().onFimConversa(lstChanged);
   
 onEntradaMensagem()
+~~~~~~~~~~~~~~~~~~~~
   Implementação da WAActionInterface, executa outros métodos privados da classe.
 Assinatura
   public void onEntradaMensagem(List<MensagemWhatsapp__c> pListMensagemWhatsapp)
