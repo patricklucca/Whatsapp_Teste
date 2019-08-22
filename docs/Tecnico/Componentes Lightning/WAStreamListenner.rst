@@ -10,7 +10,13 @@ Atributos
 +------------------------+-----------------------+-------------+
 | subscription           | Map                   | false       | 
 +------------------------+-----------------------+-------------+
+Exemplo
+---------
 
+.. code-block:: apex
+
+   <c:WAStreamListenner channels="['/event/whats__WhatsappInbox__e']" />
+                              
 Functions
 ----------
 
