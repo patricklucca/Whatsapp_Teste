@@ -14,5 +14,4 @@ Layouts das páginas do apex constituintes da aplicação Whatsapp Core
    Administrador/Layout de Parâmetro Whatsapp
    Administrador/Layout do Objeto Conversa do Whatsapp
    Administrador/Objeto Mensagem do Whatsapp
-   Administrador/Layouts de Páginas
-   Administrador/Contato do Whatsapp
+
