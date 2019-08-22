@@ -10,3 +10,8 @@ Atributos
 +------------------------+-----------------------+-------------+
 Trata-se de um event type component
 
+Exemplo
+--------
+
+  .. code-block:: apex
+     <aura:registerEvent name="onClick" type="c:WAInboxConversaEvent"/>
