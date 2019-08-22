@@ -1,5 +1,5 @@
 #################
-Layouts de Páginas
+Contato do Whatsapp
 #################
 
 Contato do Whatsapp
@@ -27,9 +27,5 @@ Ao arrastar e soltar um campo, por exemplo, uma janela com as propriedades do ca
     :alt: Solidity logo
     :align: center
 
-Verificar também:
-  Layout de Mensagem do Whatsapp
-  Layout de Conversa do Whatsapp
-  Layout de Contato do Whatsapp
-  Layout de Parâmetro do Whatsapp
+
 
