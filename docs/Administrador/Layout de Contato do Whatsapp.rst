@@ -6,7 +6,7 @@ Na seção de layout do Contato do Whatsapp encontramos um layout padrão.
 O layout padrão do Contato do Whatsapp apresenta os campos e botões abaixo abaixo:
 
 .. image:: layout5.png
-    :width: 500px
+    :width: 700px
     :alt: Solidity logo
     :align: center
     
