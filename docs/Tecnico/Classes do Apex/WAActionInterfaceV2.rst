@@ -3,6 +3,7 @@ WAActionInterfaceV2
 ###################
 
 onClick()
+~~~~~~~~~~~~~~~~~~~~
   Método para ser executado ao clicar em algum botão através da classe que a implementam.
 Assinatura
   void onClick(ConversaWhatsapp__c pConversaWhatsapp)
@@ -18,6 +19,7 @@ Exemplo
       }
 
 isDisabled()
+~~~~~~~~~~~~~~~~~~~~
   Método para desabilitar/habilidar um botão através da classe que a implementam.
 Assinatura
   Boolean isDisabled(ConversaWhatsapp__c pConversaWhatsapp)
