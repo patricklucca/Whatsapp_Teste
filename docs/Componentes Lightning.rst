@@ -10,7 +10,7 @@ Componentes do Lightning constituintes da aplicação Whatsapp Core
    
    
 
-   Tecnico/Componentes Lightning/WAActionTemplate
+   Tecnico/Componentes Lightning/WAActionTemplate.rst
    Tecnico/Componentes Lightning/WACoreActionRelacionamento
    Tecnico/Componentes Lightning/WAInbox
    Tecnico/Componentes Lightning/WAInboxConversa
