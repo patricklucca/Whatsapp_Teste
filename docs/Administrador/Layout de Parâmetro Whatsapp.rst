@@ -2,8 +2,6 @@
 Layout de Parâmetro Whatsapp
 #################
 
-Layout de Parâmetro Whatsapp
------------------------
 Na seção de layout do Parâmetro Whatsapp encontramos um layout padrão. 
 O layout padrão do Parâmetro Whatsapp apresenta os campos e botões abaixo abaixo:
 
