@@ -6,7 +6,7 @@ Na seção de layout do objeto Mensagem do Whatsapp encontramos um layout padrã
 O layout padrão do Conversa do Whatsapp apresenta os campos e botões abaixo abaixo:
 
 .. image:: layout4.png
-    :width: 500px
+    :width: 700px
     :alt: Solidity logo
     :align: center
     
