@@ -12,6 +12,14 @@ Atributos
 +------------------------+-----------------------+-------------+
 | alertChat              | Boolean               | false       | 
 +------------------------+-----------------------+-------------+
+Exemplo
+---------
+
+.. code-block:: apex
+
+   <lightning:layoutItem class="flex">
+       <ui:outputText value="{!v.conversa.whats__ContatoWhatsapp__r.Name}" class="conversa-title ellipsis"/>
+   </lightning:layoutItem>
 
 Functions
 ----------
