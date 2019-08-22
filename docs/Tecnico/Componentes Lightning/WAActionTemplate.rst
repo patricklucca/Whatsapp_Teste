@@ -23,7 +23,7 @@ Método utilizado para fechamento da modal.
 
 Exemplo:
 ~~~~~~~~
-   .. code-block:: javascript
+   .. code-block:: html
 
       <aura:component extends="whats:WAActionTemplate" >
          <!-- Header -->
