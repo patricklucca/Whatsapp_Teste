@@ -6,7 +6,7 @@ Na seção de layout do Parâmetro Whatsapp encontramos um layout padrão.
 O layout padrão do Parâmetro Whatsapp apresenta os campos e botões abaixo abaixo:
 
 .. image:: layout6.png
-    :width: 500px
+    :width: 700px
     :alt: Solidity logo
     :align: center
     
