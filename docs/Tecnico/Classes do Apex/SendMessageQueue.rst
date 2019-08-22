@@ -14,8 +14,8 @@ Exemplo
     
     .. code-block:: apex
     
-    Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
-    SendWhatsappMessage.SendMessageQueue(exemploresult.keySet());
+       Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
+       SendWhatsappMessage.SendMessageQueue(exemploresult.keySet());
     
 add() 
 -----------------------
@@ -29,8 +29,8 @@ Exemplo
     
     .. code-block:: apex
     
-    Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
-    SendWhatsappMessage.add(exemploresult.keySet());
+       Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
+       SendWhatsappMessage.add(exemploresult.keySet());
     
 execute()  
 -----------------------
@@ -52,8 +52,8 @@ Exemplo
        
        .. code-block:: apex
        
-       Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
-       SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
+          Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
+          SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
        
 public RemoteMessageEntity() 
 -----------------------
@@ -67,6 +67,6 @@ Exemplo
        
        .. code-block:: apex
        
-       Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
-       SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
+          Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
+          SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
              
