@@ -8,4 +8,5 @@ Atributos
 +========================+=======================+=============+
 | conversa               | ConversaWhatsapp__c   | false       | 
 +------------------------+-----------------------+-------------+
-Trata-se de um event tipo component
+Trata-se de um event type component
+
