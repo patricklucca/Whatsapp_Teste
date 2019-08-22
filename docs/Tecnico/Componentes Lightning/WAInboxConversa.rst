@@ -26,10 +26,10 @@ Exemplo
          <div class="{!'chat-item ' + ((v.conversa.selecionado == true) ? ' selected ' : '') + ((v.alertChat == true) ? ' new-chat ' : '')}" onclick="{!c.onClickConversa}">
             <div class="default-user-icon">
                         <div class="slds-is-absolute position-alert-icon">
-    				        <span class="alertIcon slds-theme_warning">!</span>
-    				    </div>
-    				    <img src="{!v.iconUrl}" draggable="false" class="avatar-image is-loaded"/>
-        		 </div>
+    		 		        <span class="alertIcon slds-theme_warning">!</span>
+    		 		            </div>
+    		 		    <img src="{!v.iconUrl}" draggable="false" class="avatar-image is-loaded"/>
+          	</div>
          </div>
        
 
