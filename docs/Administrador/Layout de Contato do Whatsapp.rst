@@ -15,7 +15,7 @@ Definição dos campos:
   
   
 .. Important::
-    - Descrição:
+    - Definição dos campos:
      - Nome do Contato do Whatsapp: Nome que foi dado ao contato do whatsappp cadastrado
      - Numero: Numero que foi cadastrado ao contato do whatsappp
      - Lead: Lead vinculado ao contato do whatsappp
