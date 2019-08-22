@@ -2,7 +2,7 @@
 Layout do Conversa do Whatsapp
 #################
 
-Na seção de layout do objeto Mensagem do Whatsapp encontramos um layout padrão. 
+Na seção de layout do objeto Conversa do Whatsapp encontramos um layout padrão. 
 O layout padrão do Conversa do Whatsapp apresenta os campos e botões abaixo abaixo:
 
 .. image:: layout4.png
