@@ -40,8 +40,9 @@ Atributos
 +------------------------+-----------------------+-------------+
 Exemplo
 ---------
- <aura:attribute name="exemp" type="String" default = "Logout">
- <whats:WACoreActionRelacionamento
+.. code-block:: apex
+   <aura:attribute name="exemp" type="String" default = "Logout">
+   <whats:WACoreActionRelacionamento
                               status = {!v.exemp}>
 Function
 ----------
