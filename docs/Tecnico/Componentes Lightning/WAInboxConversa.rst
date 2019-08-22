@@ -14,12 +14,24 @@ Atributos
 +------------------------+-----------------------+-------------+
 Exemplo
 ---------
+  
+   .. code-block:: html
 
-.. code-block:: apex
-
-   <lightning:layoutItem class="flex">
-       <ui:outputText value="{!v.conversa.whats__ContatoWhatsapp__r.Name}" class="conversa-title ellipsis"/>
-   </lightning:layoutItem>
+      <aura:component extends="whats:WAActionTemplate" >
+         <!-- Events -->
+         <aura:registerEvent name="onClick" type="c:WAInboxConversaEvent"/>      
+         <!-- Header -->
+         <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+         
+         <div class="{!'chat-item ' + ((v.conversa.selecionado == true) ? ' selected ' : '') + ((v.alertChat == true) ? ' new-chat ' : '')}" onclick="{!c.onClickConversa}">
+            <div class="default-user-icon">
+                        <div class="slds-is-absolute position-alert-icon">
+    				        <span class="alertIcon slds-theme_warning">!</span>
+    				    </div>
+    				    <img src="{!v.iconUrl}" draggable="false" class="avatar-image is-loaded"/>
+        		 </div>
+         </div>
+       
 
 Functions
 ----------
