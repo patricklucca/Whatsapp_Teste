@@ -1,5 +1,5 @@
 #################
-Layout do Objeto Conversa do Whatsapp
+Layout do Conversa do Whatsapp
 #################
 
 Na seção de layout do objeto Mensagem do Whatsapp encontramos um layout padrão. 
