@@ -26,7 +26,13 @@ Atributos
 +------------------------+-----------------------+-------------+
 | relacaoNome            | String                | false       | 
 +------------------------+-----------------------+-------------+
+Exemplo
+---------
 
+.. code-block:: apex
+
+   <aura:handler name="change" value="{!v.chatContent}" action="{!c.onChangeChatContent}"/>
+   
 Functions
 ----------
 doInit
