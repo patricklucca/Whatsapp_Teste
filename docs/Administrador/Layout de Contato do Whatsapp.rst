@@ -12,8 +12,10 @@ O layout padrão do Contato do Whatsapp apresenta os campos e botões abaixo aba
     
 Campos com um cadeado são campos de apenas leitura. Campos marcados com asterisco são
 Definição dos campos:
-  Nome do Contato do Whatsapp: Nome que foi dado ao contato do whatsappp cadastrado
-  Numero: Numero que foi cadastrado ao contato do whatsappp
-  Lead: Lead vinculado ao contato do whatsappp
-  Contato: Contato vinculado ao contato do whatsappp
-  Proprietário: Criador da o contato do whatsappp
+  
+  
+  .. Note:: Nome do Contato do Whatsapp: Nome que foi dado ao contato do whatsappp cadastrado
+     Numero: Numero que foi cadastrado ao contato do whatsappp
+     Lead: Lead vinculado ao contato do whatsappp
+     Contato: Contato vinculado ao contato do whatsappp
+     Proprietário: Criador da o contato do whatsappp
