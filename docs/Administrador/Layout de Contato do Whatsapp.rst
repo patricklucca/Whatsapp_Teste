@@ -14,8 +14,9 @@ Campos com um cadeado são campos de apenas leitura. Campos marcados com asteris
 Definição dos campos:
   
   
-  .. Note:: Nome do Contato do Whatsapp: Nome que foi dado ao contato do whatsappp cadastrado
-     Numero: Numero que foi cadastrado ao contato do whatsappp
-     Lead: Lead vinculado ao contato do whatsappp
-     Contato: Contato vinculado ao contato do whatsappp
-     Proprietário: Criador da o contato do whatsappp
+.. Important::
+     - Nome do Contato do Whatsapp: Nome que foi dado ao contato do whatsappp cadastrado
+     - Numero: Numero que foi cadastrado ao contato do whatsappp
+     - Lead: Lead vinculado ao contato do whatsappp
+     - Contato: Contato vinculado ao contato do whatsappp
+     - Proprietário: Criador da o contato do whatsappp
