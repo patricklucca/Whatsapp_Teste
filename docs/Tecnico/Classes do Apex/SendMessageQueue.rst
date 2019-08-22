@@ -13,6 +13,7 @@ Assinatura
 Exemplo
     
     .. code-block:: apex
+    
     Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
     SendWhatsappMessage.SendMessageQueue(exemploresult.keySet());
     
@@ -27,6 +28,7 @@ Assinatura
 Exemplo
     
     .. code-block:: apex
+    
     Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
     SendWhatsappMessage.add(exemploresult.keySet());
     
@@ -49,6 +51,7 @@ Assinatura
 Exemplo
        
        .. code-block:: apex
+       
        Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
        SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
        
@@ -63,6 +66,7 @@ Assinatura
 Exemplo
        
        .. code-block:: apex
+       
        Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
        SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
              
