@@ -38,33 +38,37 @@ Atributos
 +------------------------+-----------------------+-------------+
 | isHighlighted          | Boolean               | false       | 
 +------------------------+-----------------------+-------------+
-
+Exemplo
+---------
+ <aura:attribute name="exemp" type="String" default = "Logout">
+ <whats:WACoreActionRelacionamento
+                              status = {!v.exemp}>
 Function
 ----------
 onChangeUserStatus
 ~~~~~~~~
-Não está em uso
+ Não está em uso
 
 doInit
 ~~~~~~~~
-Estabelece a conexão com o host
+ Estabelece a conexão com o host
 
 scriptsLoaded
 ~~~~~~~~
-Inicia uma série de ações do helper, como carregar o usuário, mostrar as conversas vistas
+ Inicia uma série de ações do helper, como carregar o usuário, mostrar as conversas vistas
 
 onSelectWAAction
 ~~~~~~~~
-executa o método doExecuteAction
+ executa o método doExecuteAction
 
 onSelectConversa
 ~~~~~~~~
-Retorna mensagens conversa e organiza-as
+ Retorna mensagens conversa e organiza-as
 
 handleReceivedMessage
 ~~~~~~~~
-Recebe um JSON com as mensagens enviadas para a conversa
+ Recebe um JSON com as mensagens enviadas para a conversa
 
 handleClickConversa
 ~~~~~~~~
-Atribui valores a variável listConversa e aciona outras functions "loadActions" e "setSeenSelectedConversa"
+ Atribui valores a variável listConversa e aciona outras functions "loadActions" e "setSeenSelectedConversa"
