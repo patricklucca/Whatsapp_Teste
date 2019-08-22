@@ -2,8 +2,6 @@
 Layout de Contato do Whatsapp
 #################
 
-Layout de Contato do Whatsapp
------------------------
 Na seção de layout do Contato do Whatsapp encontramos um layout padrão. 
 O layout padrão do Contato do Whatsapp apresenta os campos e botões abaixo abaixo:
 
