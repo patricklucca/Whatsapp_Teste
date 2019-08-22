@@ -1,22 +1,28 @@
-O WAActionTemplate é o componente modelo que deve ser utilizado para a implementação dos componentes lightning que aparecerão no messenger. Ele funciona como uma modal, com o layout separado em três partes, cabeçalho, corpo e rodapé.
-Nele temos os seguintes atributos:
+#################
+WAActionTemplate
+#################
+Atributos:
+~~~~~~~~~~~~
 
++------------------------+-----------------------+-------------+
+|  name                  | Tipo                  | Obrigatório |
++========================+=======================+=============+
+| Footer                 | Aura.Component[]      | false       | 
++------------------------+-----------------------+-------------+
+| title                  | String                | false       | 
++------------------------+-----------------------+-------------+
+| conversaWhatsapp       | conversaWhatsapp__c   | false       | 
++------------------------+-----------------------+-------------+
 
-.. image:: WAActionTemplate.png
-    :width: 500px
-    :alt: Solidity logo
-    :align: center
-
-Além dos atributos, tem um método para fechamento da modal close().
-
+Function
+~~~~~~~~~~
 close()
 
 Método utilizado para fechamento da modal.
 
 
-
-Exemplo de utilização do componente como extends:
-
+Exemplo:
+~~~~~~~~
    .. code-block:: apex
 
       <aura:component extends="whats:WAActionTemplate" >
@@ -42,11 +48,4 @@ Exemplo de utilização do componente como extends:
          </lightning:layout>
       </aura:component>
 
-Referências:
-Componente Lightning
-WAMessenger
-WACoreActionRelacionamento
-Metadado
-Ação do Whatsapp
-Relacionar Contato ou Lead
 
