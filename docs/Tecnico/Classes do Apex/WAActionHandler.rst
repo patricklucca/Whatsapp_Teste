@@ -2,7 +2,8 @@
 WAActionHandler
 ###############
 
-doExecuteWaAction(pAcaoWhatsapp, pObjectParam)
+doExecuteWaAction()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   Executa outros métodos privados da classe, os métodos executados depende do valor do atributo Assincrono__c do parâmetro pAcaowhatsapp.
 Assinatura
   public static void doExecuteWaAction()
@@ -19,6 +20,7 @@ Exemplo
       ), lstChangedMensagem);      
       
 getWaAction()
+~~~~~~~~~~~~~~
   Retorna a instância de uma classe apex WAActionInterface.
 Assinatura
   public static WAActionInterface getWaAction(AcaoWhatsapp__mdt pAcaoWhatsapp)
