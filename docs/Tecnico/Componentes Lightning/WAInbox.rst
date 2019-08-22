@@ -47,6 +47,32 @@ Exemplo
    <whats:WACoreActionRelacionamento
                               status = {!v.exemp}>
                               
+                              
+   .. code-block:: html
+
+      <aura:component extends="whats:WAInbox" >
+         <!-- Header -->
+         <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+         <aura:handler name="onReceiveMessage" event="c:WAStreamEvent" action="{!c.handleReceivedMessage}" />
+         <aura:handler name="onClick" event="c:WAInboxConversaEvent" action="{!c.handleClickConversa}" />
+
+         <!-- Content -->
+         <div id="contentWAInbox" class="fullscreen">
+          <div class="c-container layoutAgent">
+           <lightning:layout>  
+            <lightning:layoutItem flexibility="auto" padding="around-small" size="9">
+               <lightning:tile label="{!v.usuario.Name}" href="{!'/'+v.usuario.Id}">
+                  <ul class="slds-list_horizontal slds-has-dividers_right">
+                     <li class="slds-item">
+                        <span class="clabel">Números: </span>&nbsp;<span data-bind="html:AgentExtension">
+                     </li>
+                  </ul>
+               </lightning:tile>
+            </lightning:layoutItem>
+           </lightning:layout>
+          </div>  
+         </div>
+                              
 Function
 ----------
 onChangeUserStatus
