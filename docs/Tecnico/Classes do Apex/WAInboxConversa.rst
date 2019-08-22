@@ -4,6 +4,7 @@ WAInboxConversa
 @AuraEnabled
 
 getIconUrl()
+~~~~~~~~~~~~~~~~~~~~
   Retorna a URL do ícone do Contato do Whatsapp caso o mesmo tenha um ícone, caso contrário retorna uma string vazia.
 Assinatura
   public static String getIconUrl(String pContatoId)
@@ -19,6 +20,7 @@ Exemplo
       return result; 
 
 getHostUrl()
+~~~~~~~~~~~~~~~~~~~~
   Retorna a URL da organização.
 Assinatura
   public static String getHostUrl()
