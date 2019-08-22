@@ -11,6 +11,7 @@ Retorno
 Assinatura
     public SendMessageQueue(Set<Id> pSetMensagemId)
 Exemplo
+    
     .. code-block:: apex
     Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
     SendWhatsappMessage.SendMessageQueue(exemploresult.keySet());
@@ -24,6 +25,7 @@ Retorno
 Assinatura
     public void add(Set<Id> pSetMensagemId) 
 Exemplo
+    
     .. code-block:: apex
     Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
     SendWhatsappMessage.add(exemploresult.keySet());
@@ -45,6 +47,7 @@ Retorno
 Assinatura
     public class RemoteMessageEntity
 Exemplo
+       
        .. code-block:: apex
        Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
        SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
@@ -58,6 +61,7 @@ Retorno
 Assinatura
     public RemoteMessageEntity(MensagemWhatsapp__c pMensagemWa) 
 Exemplo
+       
        .. code-block:: apex
        Map<Id, MensagemWhatsapp__c> exemploresult = new Map<Id, MensagemWhatsapp__c>([SELECT Id, Name FROM MensagemWhatsapp__c]);
        SendWhatsappMessage.doEnviarMensagens(exemploresult.keySet());
