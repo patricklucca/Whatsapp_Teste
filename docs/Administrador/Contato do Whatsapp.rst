@@ -2,8 +2,6 @@
 Contato do Whatsapp
 #################
 
-Contato do Whatsapp
------------------------
 Os layouts de páginas podem ser acessados através do gerenciador de objetos. Ao acessá-lo pode-se verificar e alterar uma série de informações sobre a amostragem do Objeto selecionado, como por exemplo:
   Campos
   Botões
