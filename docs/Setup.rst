@@ -25,7 +25,23 @@ Caso não tenha domínio cadastrado, deve-se escolher um nome para o domínio e 
     
     Registro de domínio
 
-Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote
+Após a validação confirmada, registrar o domínio do mesmo. Após o registro concluído, o SalesForce pedirá para que logue novamente. 
+
+Após logar vá para a tela do "Meu domínio" novamente e clique em "Efetuar login".
+
+.. figure:: instalacao5.png
+    :width: 350px
+    :alt: Solidity logo
+    :align: center
+
+Efetuado login, clique em "Implantar para usuaários".
+
+.. figure:: instalacao6.png
+    :width: 250px
+    :alt: Solidity logo
+    :align: center
+    
+Tendo realizado estas ações, já com o domínio registrado, poderá seguir para a instalação do pacote
 
 
 Instalação do Pacote Gerenciado
