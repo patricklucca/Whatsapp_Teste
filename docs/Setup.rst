@@ -99,7 +99,7 @@ Parâmetro Global
 
 Entre na Configuração
 
-.. figure:: processbuilder1.png
+.. figure:: instalacao7.png
     :width: 350px
     :alt: Solidity logo
     :align: center
@@ -145,7 +145,7 @@ Site Remoto
 
 Entre na Configuração
 
-.. figure:: processbuilder1.png
+.. figure:: instalacao7.png
     :width: 350px
     :alt: Solidity logo
     :align: center
