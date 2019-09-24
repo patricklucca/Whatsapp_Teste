@@ -95,6 +95,7 @@ Após a configuração do domínio e a instalação do pacote WhatsappCore é ne
 Com a url que a INPULSO disponibilizar terá que inserir no Parâmetro Global e no Site Remoto.
 
 Parâmetro Global
+~~~~~~~~~~~~
 
 Entre na Configuração
 
@@ -140,8 +141,17 @@ Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 Clique em Salavar.
 
 Site Remoto
+~~~~~~~~~~~~
 
 Entre na Configuração
+
+.. figure:: processbuilder1.png
+    :width: 350px
+    :alt: Solidity logo
+    :align: center
+    
+    Seleção de Configurações
+    
 Escreva site na busca rápida e clique em Configurações do site remoto.
 Clique em Novo site remoto.
 Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
