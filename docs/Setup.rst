@@ -35,7 +35,7 @@ Após logar vá para a tela do "Meu domínio" novamente e clique em "Efetuar log
     :alt: Solidity logo
     :align: center
 
-Efetuado login, clique em "Implantar para usuaários".
+Efetuado login, clique em "Implantar para usuários".
 
 .. figure:: instalacao6.png
     :width: 250px
