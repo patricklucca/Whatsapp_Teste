@@ -49,7 +49,7 @@ Instalação do Pacote Gerenciado
 -----------------------
 Em caso de procedimento interno o link para download pode ser encontrado através do Gerenciador de Pacotes. Para acessa-lo é preciso abrir as Configurações
 
-.. figure:: processbuilder1.png	
+.. figure:: configurcao.png	
     :width: 270px
     :alt: Solidity logo
     :align: center
@@ -99,7 +99,7 @@ Parâmetro Global
 
 Entre na Configuração
 
-.. figure:: instalacao7.png
+.. figure:: configurcao.png
     :width: 350px
     :alt: Solidity logo
     :align: center
@@ -145,7 +145,7 @@ Site Remoto
 
 Entre na Configuração
 
-.. figure:: instalacao7.png
+.. figure:: configurcao.png
     :width: 350px
     :alt: Solidity logo
     :align: center
@@ -187,7 +187,7 @@ Para alterar o tempo de atualização:
 
 Entre na Configuração
 
-.. figure:: instalacao7.png
+.. figure:: configurcao.png
     :width: 350px
     :alt: Solidity logo
     :align: center
