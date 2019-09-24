@@ -55,7 +55,7 @@ source_parsers = {'.md': 'recommonmark.parser.CommonMarkParser'}
 master_doc = 'index'
 
 # General information about the project.
-project = u'Whatsapp Core'
+project = u'Falae Core'
 copyright = u'JrTech Soluções em Tecnologia'
 author = u'Brener Badures'
 
@@ -64,7 +64,7 @@ author = u'Brener Badures'
 # built documents.
 #
 # The short X.Y version.
-version = '0.0.1'
+version = '0.0.2'
 # The full version, including alpha/beta/rc tags.
 release = version
 
