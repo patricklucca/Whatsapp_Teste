@@ -1,8 +1,23 @@
 #################
-Inbox do Whatsapp
+Inbox do Falae
 #################
 
-O Inbox do Whatsapp é acessado através da barra superior. Acessando-a é possível realizar as seguintes ações:
+O Inbox do Falae é acessado através da barra superior. Acessando-a é possível realizar as seguintes ações:
+
+Iniciar Conversa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Uma conversa pode ser iniciada através do SalesForce de direção Empresa para Cliente utilizando o botão "Iniciar Conversa" no canto superior direito.
+
+.. image:: Inbox9.png
+    :width: 500px
+    :alt: Solidity logo
+    :align: center
+    
+    Botão Iniciar Conversa
+    
+Um modal será aberto onde poderá
+    
 
 Selecionar Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
