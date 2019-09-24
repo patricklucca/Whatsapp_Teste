@@ -109,6 +109,7 @@ Escreva metadados na busca rápida e clique em Tipos de metadados personalizados
 Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
 Clique em Novo.
 Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
+
 +----------------------------+--------------------------------------+
 | Campo                      | Valor                                | 
 +============================+======================================+
@@ -144,6 +145,7 @@ Entre na Configuração
 Escreva site na busca rápida e clique em Configurações do site remoto.
 Clique em Novo site remoto.
 Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
+
 +----------------------------+------------------------------------------+
 | Campo                      | Valor                                    | 
 +============================+==========================================+
