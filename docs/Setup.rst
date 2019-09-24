@@ -1,3 +1,4 @@
+
 #################
 Setup
 #################
@@ -46,11 +47,18 @@ Tendo realizado estas ações, já com o domínio registrado, poderá seguir par
 
 Instalação do Pacote Gerenciado
 -----------------------
-	
+Em caso de procedimento interno o link para download pode ser encontrado através do Gerenciador de Pacotes. Para acessa-lo é preciso abrir as Configurações
+
+.. figure:: processbuilder1.png	
+    :width: 270px
+    :alt: Solidity logo
+    :align: center
+
+E procurar por "Gerenciador de pacote". No Gerenciador de pacote é possível verificar as versões da aplicação e seu link de download
 
 O download do pacote para a sua organização deve ser realizado através do link abaixo
          
-         https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1U000007Pb3G
+         https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000002WaNY
          
 O login na sua organização será requerido, e após o a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
 
