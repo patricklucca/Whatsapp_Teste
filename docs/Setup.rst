@@ -31,7 +31,7 @@ Após a validação confirmada, registrar o domínio do mesmo. Após o registro 
 Após logar vá para a tela do "Meu domínio" novamente e clique em "Efetuar login".
 
 .. figure:: instalacao5.png
-    :width: 350px
+    :width: 600px
     :alt: Solidity logo
     :align: center
 
