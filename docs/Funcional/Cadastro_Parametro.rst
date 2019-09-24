@@ -1,23 +1,35 @@
 #################
-Cadastro de novo parâmetro whatsapp
+Cadastro de novo parâmetro Whatsapp - Inpulso Web
 #################
 
-Para registrar um novo, vá na aba do Parâmetro Whatsapp.
+Para registrar um novo, vá na aba do Parâmetro do tipo Inpulso Web.
+Clique em novo, selecione Whatsapp - Inpulso Web e clique em avançar.
 
-.. image:: Cadastro_Parametro.png
-    :width: 500px
+.. image:: cadastroParametro1.png
+    :width: 300px
     :alt: Solidity logo
     :align: center
     
+Após isso aparece a seguinte tela de cadastro:    
+
+.. image:: cadastroParametro2.png
+    :width: 500px
+    :alt: Solidity logo
+    :align: center
+
 Definições dos campos:
 
-Descrição: a descrição seria o nome do Parâmetro Whatsapp. 
+Nome: nome do Parâmetro Whatsapp. 
 
-Número: número registrado no whatsapp a máscara seria DDD+Número. Ex.: 13999887766. 
+Número: número registrado no whatsapp a máscara é DDD+Número. Ex.: 13999887766. 
 
 Resposta padrão para tipos incompatíveis: resposta para quando enviarem alguma mensagem que não foi possível interpretar (imagens, áudio, sticker, etc…). 
 
 Ativo: quando ativo deixa o número conectado para o recebimento e envio de mensagens. (Na criação de um parâmetro que já será utilizado deixe ativado na criação). 
+
+Receber Confirmações das Mensagens: quando ativo, recebe as confirmações das mensagens, podendo ser: Enviado Localmente, Enviado e Lido.
+
+Receber Status de Conectividade (Ping): quando ativo, a seção "Monitoramento da Conexão" será atualizada constantemente quando o parâmetro estiver sendo executado.
 
 Usuário Salesforce: seu usuário de login no salesforce. 
 
