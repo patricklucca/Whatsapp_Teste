@@ -58,7 +58,7 @@ E procurar por "Gerenciador de pacote". No Gerenciador de pacote é possível ve
 
 O download do pacote para a sua organização deve ser realizado através do link abaixo
          
-         https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000002WaNY
+         https://login.salesforce.com/packaging/installPackage.apexp?p0=04t3i000002WaOv
          
 O login na sua organização será requerido, e após o a realização será automaticamente redirecionado para a tela de download do pacote, onde será necessário marcar as opções apresentadas abaixo:
 
@@ -98,7 +98,7 @@ Parâmetro Global
 
 Entre na Configuração
 
-.. figure:: instalacao7.png
+.. figure:: processbuilder1.png
     :width: 350px
     :alt: Solidity logo
     :align: center
@@ -107,34 +107,59 @@ Entre na Configuração
     
 Escreva metadados na busca rápida e clique em Tipos de metadados personalizados.
 Clique em Gerenciar registros do lado esquerdo do Parâmetro Global.
-Clique em Editar do lado esquerdo do Instância do Servidor Whatsapp.
-Adicionar a url fornecida no campo Attribute 1 como no exemplo a seguir:
+Clique em Novo.
+Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
++----------------------------+--------------------------------------+
+| Campo                      | Valor                                | 
++============================+======================================+
+| Rótulo                     | Instância do Servidor do WhatsappMob | 
++----------------------------+--------------------------------------+
+| Nome de Parâmetro Global   | InstanciaServidorWhatsappMob         |
++----------------------------+--------------------------------------+
+| Contexto                   | ServidorWhatsappMob                  | 
++----------------------------+--------------------------------------+
+| Attribute 1                | https://sf-yowsup.herokuapp.com      | 
++----------------------------+--------------------------------------+
 
-.. figure:: instalacao10.png
-    :width: 480px
-    :alt: Solidity logo
-    :align: center
-    
-    Campo Attribute 1 no painel
-    
-Após inserir a url, clique em Salvar.
+Clique em Salavar e criar.
+Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
++----------------------------+------------------------------------------+
+| Campo                      | Valor                                    | 
++============================+==========================================+
+| Rótulo                     | Instância do Servidor do WhatsappWeb     | 
++----------------------------+------------------------------------------+
+| Nome de Parâmetro Global   | InstanciaServidorWhatsappWeb             |
++----------------------------+------------------------------------------+
+| Contexto                   | ServidorWhatsappWeb                      | 
++----------------------------+------------------------------------------+
+| Attribute 1                | https://dev-dot-demowhatsapp.appspot.com | 
++----------------------------+------------------------------------------+
+Clique em Salavar.
 
 Site Remoto
 
 Entre na Configuração
 Escreva site na busca rápida e clique em Configurações do site remoto.
-Clique em Editar do lado esquerdo do WhatsappWeb.
-Adicionar a url fornecida no campo URL do site remoto como no exemplo a seguir:
+Clique em Novo site remoto.
+Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
++----------------------------+------------------------------------------+
+| Campo                      | Valor                                    | 
++============================+==========================================+
+| Nome do site remoto        | WhatsAppMob                              | 
++----------------------------+------------------------------------------+
+| URL do site remoto         | https://sf-yowsup.herokuapp.com          |
++----------------------------+------------------------------------------+
 
-.. figure:: instalacao9.png
-    :width: 480px
-    :alt: Solidity logo
-    :align: center
-    
-    Campo URL do site remoto
-    
-Após inserir a url, clique em Salvar.
-
+Clique em Salavar e criar.
+Crie o site remoto para o WhatsappWeb conforme a tabela abaixo:
++----------------------------+------------------------------------------+
+| Campo                      | Valor                                    | 
++============================+==========================================+
+| Nome do site remoto        | WhatsAppWeb                              | 
++----------------------------+------------------------------------------+
+| URL do site remoto         | https://dev-dot-demowhatsapp.appspot.com |
++----------------------------+------------------------------------------+
+Clique em Salavar.
 
     
 Configuracao de Periodicidade de Atualizacao do Inbox
