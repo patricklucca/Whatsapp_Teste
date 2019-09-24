@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Whatsapp Core
+Falae Core
 ========
 
 .. image:: WhatsApp-Messenger.png
@@ -11,7 +11,7 @@ Whatsapp Core
     :alt: Solidity logo
     :align: center 
     
-Bem vindo a documentação da aplicação salesforce "Whatsapp Core". Neste documento será possível verifiar todas as funcionalidade e suas configurações, além da instalação da própria aplicação
+Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documento será possível verifiar todas as funcionalidade e suas configurações, além da instalação da própria aplicação.
 
 .. toctree::
    :maxdepth: 2
