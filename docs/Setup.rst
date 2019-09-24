@@ -123,6 +123,7 @@ Crie o parâmetro global para o WhatsappMob conforme a tabela abaixo:
 
 Clique em Salavar e criar.
 Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
+
 +----------------------------+------------------------------------------+
 | Campo                      | Valor                                    | 
 +============================+==========================================+
@@ -134,6 +135,7 @@ Crie o parâmetro global para o WhatsappWeb conforme a tabela abaixo:
 +----------------------------+------------------------------------------+
 | Attribute 1                | https://dev-dot-demowhatsapp.appspot.com | 
 +----------------------------+------------------------------------------+
+
 Clique em Salavar.
 
 Site Remoto
@@ -152,6 +154,7 @@ Crie o site remoto para o WhatsappMob conforme a tabela abaixo:
 
 Clique em Salavar e criar.
 Crie o site remoto para o WhatsappWeb conforme a tabela abaixo:
+
 +----------------------------+------------------------------------------+
 | Campo                      | Valor                                    | 
 +============================+==========================================+
@@ -159,6 +162,7 @@ Crie o site remoto para o WhatsappWeb conforme a tabela abaixo:
 +----------------------------+------------------------------------------+
 | URL do site remoto         | https://dev-dot-demowhatsapp.appspot.com |
 +----------------------------+------------------------------------------+
+
 Clique em Salavar.
 
     
