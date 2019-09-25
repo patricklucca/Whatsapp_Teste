@@ -10,7 +10,7 @@ Abrindo uma Conversa
 Uma conversa pode ser iniciada através do SalesForce de direção Empresa para Cliente utilizando o botão "Iniciar Conversa" no canto superior direito.
 
 .. image:: Inbox9.png
-    :width: 500px
+    :width: 250px
     :alt: Solidity logo
     :align: center
     
@@ -19,7 +19,7 @@ Uma conversa pode ser iniciada através do SalesForce de direção Empresa para 
 Um modal será aberto onde poderá ser selecionado um Contato Falae para iniciar a conversa.
 
 .. figure:: Inbox10.png
-    :width: 625px
+    :width: 500px
     :alt: Solidity logo
     :align: center
     
@@ -31,7 +31,7 @@ Criando um Contato Falae
 Um Contato Falae também pode ser criado através deste modal, pesquisando pelo Contato Inexistente e selecionado a opção "Pesquisar Nome no Contato Falae"
 
 .. figure:: Inbox11.png
-    :width: 625px
+    :width: 500px
     :alt: Solidity logo
     :align: center
     
@@ -39,7 +39,7 @@ Um Contato Falae também pode ser criado através deste modal, pesquisando pelo 
 Após a seleção deste botão, um outro modal poderá ser aberto onde a opção de criar um Contato Falae estará disponível ao pesquisar um contato inexistente.
 
 .. figure:: Inbox12.png
-    :width: 625px
+    :width: 500px
     :alt: Solidity logo
     :align: center
   
@@ -98,14 +98,14 @@ A criação de uma Conta/Lead pode também ser realizada através deste painel. 
     Busca por um Contato/Lead que não existe
 
 .. figure:: Inbox7.png
-    :width: 620px
+    :width: 650px
     :alt: Solidity logo
     :align: center
     
     Seleção da opção Criar Lead/Criar Contato
 
 .. figure:: Inbox8.png
-    :width: 620px
+    :width: 650px
     :alt: Solidity logo
     :align: center
     
