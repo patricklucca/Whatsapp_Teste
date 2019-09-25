@@ -56,7 +56,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Falae Core'
-copyright = u'JrTech Soluções em Tecnologia'
+copyright = u''
+# copyright = u'JrTech Soluções em Tecnologia'
 author = u'Brener Badures'
 
 # The version info for the project you're documenting, acts as replacement for
