@@ -206,8 +206,8 @@ Aqui temos dois tempos:
     
     Painel de Configuração da periodicidade
 
-.. Note:: Inbox do Whatsapp: é o tempo em milissegundos da atualização do Inbox do Whatsapp do APP Wahtsapp.
-   Messenger do Whatsapp: é o tempo em milissegundos da atualização do componente Messenger para Lead/Contato (Ainda em implementação).
+.. Note:: Inbox do Falae: é o tempo em milissegundos da atualização realizadas no "Inbox do Falae" do "APP Falae".
+   Chat do Falae: é o tempo em milissegundos da atualização do componente Chat para Lead/Contato.
 
 
 
