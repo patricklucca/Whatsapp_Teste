@@ -26,6 +26,7 @@ Bem vindo a documentação da aplicação salesforce "Falae Core". Neste documen
 
     Funcional/Inbox do Whatsapp
     Funcional/Cadastro_Parametro
+    Funcional/Cadastro_Parametro_Mob
    
    
 .. toctree::
