@@ -19,7 +19,7 @@ Após isso aparece a seguinte tela de cadastro:
 
 Definições dos campos:
 
-Nome: nome do Parâmetro Whatsapp. 
+Nome: nome do Parâmetro Falae. 
 
 Número: número registrado no whatsapp a máscara é DDD+Número. Ex.: 13999887766. 
 
