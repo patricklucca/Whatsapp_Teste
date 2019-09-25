@@ -4,7 +4,7 @@ Inbox do Falae
 
 O Inbox do Falae é acessado através da barra superior. Acessando-a é possível realizar as seguintes ações:
 
-Iniciar Conversa
+Abrindo uma Conversa
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Uma conversa pode ser iniciada através do SalesForce de direção Empresa para Cliente utilizando o botão "Iniciar Conversa" no canto superior direito.
@@ -17,7 +17,33 @@ Uma conversa pode ser iniciada através do SalesForce de direção Empresa para 
     Botão Iniciar Conversa
 
 
-Um modal será aberto onde poderá
+Um modal será aberto onde poderá ser selecionado um Contato Falae para iniciar a conversa.
+
+.. figure:: Inbox10.png
+    :width: 625px
+    :alt: Solidity logo
+    :align: center
+    
+    
+
+Criando um Contato Falae
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Um Contato Falae também pode ser criado através deste modal, pesquisando pelo Contato Inexistente e selecionado a opção "Pesquisar Nome no Contato Falae"
+
+.. figure:: Inbox11.png
+    :width: 625px
+    :alt: Solidity logo
+    :align: center
+    
+    
+Após a seleção deste botão, um outro modal poderá ser aberto onde a opção de criar um Contato Falae estará disponível ao pesquisar um contato inexistente.
+
+.. figure:: Inbox12.png
+    :width: 625px
+    :alt: Solidity logo
+    :align: center
+  
     
 
 Selecionar Conversa
