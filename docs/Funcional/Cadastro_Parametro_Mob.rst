@@ -5,17 +5,21 @@ Cadastro de novo parâmetro Whatsapp - Inpulso Mob
 Para registrar um novo, vá na aba do Parâmetro do tipo Inpulso Mob.
 Clique em novo, selecione Whatsapp - Inpulso Mob e clique em avançar.
 
-.. image:: cadastroParametroMob1.png
-    :width: 300px
-    :alt: Solidity logo
-    :align: center
-    
-Após isso aparece a seguinte tela de cadastro:    
-
-.. image:: cadastroParametroMob2.png
+.. figure:: cadastroParametroMob1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
+    
+    Modal de seleção do tipo do Parâmetro.
+    
+Após isso aparece a seguinte tela de cadastro:    
+
+.. figure:: cadastroParametroMob2.png
+    :width: 500px
+    :alt: Solidity logo
+    :align: center
+    
+    Cadastro de um novo parâmetro do tipo Inpulso Mob.
 
 Definições dos campos:
 
@@ -47,28 +51,36 @@ Ao finalizar o cadastro de um novo parâmetro Whatsapp - Inpulso Mob, será envi
 
 Para autenticar o código recebido, clique em Autenticar número:
 
-.. image:: cadastroParametroMob3.png
-    :width: 200px
+.. figure:: cadastroParametroMob3.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
+    
+    Botão para autenticar código recebido.
 
 Insira o código recebido e clique em Salvar.
 
-.. image:: cadastroParametroMob4.png
-    :width: 250px
+.. figure:: cadastroParametroMob4.png
+    :width: 400px
     :alt: Solidity logo
     :align: center
+    
+    Modal para enviar o código para verificação.
 
 Caso precise solicitar um novo código, clique em Solicitar Código:
 
 .. image:: cadastroParametroMob6.png
-    :width: 200px
+    :width: 400px
     :alt: Solidity logo
     :align: center
+    
+    Botão para solicitar um novo código.
 
 Selecione o tipo de recebimento via SMS ou via Voz, após selecionado o tipo, clique em salvar.
 
 .. image:: cadastroParametroMob5.png
-    :width: 250px
+    :width: 400px
     :alt: Solidity logo
     :align: center
+    
+    Modal selecionar o tipo que recebimento do código, podendo ser por SMS ou Voz.
