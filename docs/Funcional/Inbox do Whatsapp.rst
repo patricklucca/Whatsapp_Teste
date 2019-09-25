@@ -15,7 +15,8 @@ Uma conversa pode ser iniciada através do SalesForce de direção Empresa para 
     :align: center
     
     Botão Iniciar Conversa
-    
+
+
 Um modal será aberto onde poderá
     
 
@@ -51,7 +52,8 @@ Ao seleciona-lo um painel aparecerá na conversa, onde será possível seleciona
     :align: center
     
     Painel de vinculação/desvinculação
-    
+ 
+ 
 A desviculação da conversa é realizada através deste painel em uma conversa que já esteja vinculada. Para desvincular deve-se clicar no X onde está o nome da Conta/Lead e salvar, assim voltando para como seria no início da conversa
 
 .. figure:: Inbox5.png
