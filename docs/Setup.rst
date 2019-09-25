@@ -181,7 +181,7 @@ Clique em Salavar.
 Configuracao de Periodicidade de Atualizacao do Inbox
 -----------------------
 	
-A periodicidade de atualização das mensagens é de 1 segundo por padrão, porém é possível modificar.
+A periodicidade de atualização das mensagens é de 30 segundos por padrão, porém é possível modificar.
 
 Para alterar o tempo de atualização:
 
