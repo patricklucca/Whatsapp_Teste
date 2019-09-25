@@ -14,7 +14,6 @@ Uma conversa pode ser iniciada através do SalesForce de direção Empresa para 
     :alt: Solidity logo
     :align: center
     
-    Botão Iniciar Conversa
 
 
 Um modal será aberto onde poderá ser selecionado um Contato Falae para iniciar a conversa.
