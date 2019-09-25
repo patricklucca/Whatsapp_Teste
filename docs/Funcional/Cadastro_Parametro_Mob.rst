@@ -69,7 +69,7 @@ Insira o código recebido e clique em Salvar.
 
 Caso precise solicitar um novo código, clique em Solicitar Código:
 
-.. image:: cadastroParametroMob6.png
+.. figure:: cadastroParametroMob6.png
     :width: 400px
     :alt: Solidity logo
     :align: center
@@ -78,7 +78,7 @@ Caso precise solicitar um novo código, clique em Solicitar Código:
 
 Selecione o tipo de recebimento via SMS ou via Voz, após selecionado o tipo, clique em salvar.
 
-.. image:: cadastroParametroMob5.png
+.. figure:: cadastroParametroMob5.png
     :width: 400px
     :alt: Solidity logo
     :align: center
