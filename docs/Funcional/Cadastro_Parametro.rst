@@ -5,7 +5,7 @@ Cadastro de novo parâmetro Whatsapp - Inpulso Web
 Para registrar um novo, vá na aba do Parâmetro do tipo Inpulso Web.
 Clique em novo, selecione Whatsapp - Inpulso Web e clique em avançar.
 
-.. image:: cadastroParametro1.png
+.. figure:: cadastroParametro1.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -14,7 +14,7 @@ Clique em novo, selecione Whatsapp - Inpulso Web e clique em avançar.
     
 Após isso aparece a seguinte tela de cadastro:    
 
-.. image:: cadastroParametro2.png
+.. figure:: cadastroParametro2.png
     :width: 500px
     :alt: Solidity logo
     :align: center
@@ -47,7 +47,7 @@ Clique em Salvar.
     
 Quando estiver no Status "Registrado" recarregue a página para aparecer o QR Code, para conectar o seu número será necessário escanear o QR Code que aparece na seção "Autenticação Salesforce". 
 
-.. image:: cadastroParametro3.png
+.. figure:: cadastroParametro3.png
     :width: 700px
     :alt: Solidity logo
     :align: center
